@@ -1,0 +1,326 @@
+<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="1.84.2">
+  <Settings>
+    <Param name="Show mouse" updates="None" val="False" valType="bool"/>
+    <Param name="Data filename" updates="None" val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code"/>
+    <Param name="Monitor" updates="None" val="testMonitor" valType="str"/>
+    <Param name="Enable Escape" updates="None" val="True" valType="bool"/>
+    <Param name="color" updates="None" val="$[0,0,0]" valType="str"/>
+    <Param name="Window size (pixels)" updates="None" val="(1024, 768)" valType="code"/>
+    <Param name="Full-screen window" updates="None" val="True" valType="bool"/>
+    <Param name="colorSpace" updates="None" val="rgb" valType="str"/>
+    <Param name="Experiment info" updates="None" val="{'participant':'', 'session':'001'}" valType="code"/>
+    <Param name="Save csv file" updates="None" val="False" valType="bool"/>
+    <Param name="Show info dlg" updates="None" val="True" valType="bool"/>
+    <Param name="Save wide csv file" updates="None" val="True" valType="bool"/>
+    <Param name="Save psydat file" updates="None" val="True" valType="bool"/>
+    <Param name="expName" updates="None" val="reading_fluency" valType="str"/>
+    <Param name="logging level" updates="None" val="exp" valType="code"/>
+    <Param name="blendMode" updates="None" val="avg" valType="str"/>
+    <Param name="Save excel file" updates="None" val="False" valType="bool"/>
+    <Param name="Units" updates="None" val="use prefs" valType="str"/>
+    <Param name="Use version" updates="None" val="" valType="str"/>
+    <Param name="Save log file" updates="None" val="True" valType="bool"/>
+    <Param name="Screen" updates="None" val="1" valType="num"/>
+  </Settings>
+  <Routines>
+    <Routine name="instructionsPART1">
+      <TextComponent name="beginning">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="beginning" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="stopVal" updates="constant" val="5.0" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="text" updates="constant" val="I want you to read some sentences and decide if the answer is yes or no." valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <TextComponent name="sample_1">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="sample_1" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="text" updates="constant" val="A cow is an animal." valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="startVal" updates="None" val="5.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <ImageComponent name="Yes">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="Yes" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="(-.11, -.5)" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startVal" updates="None" val="5.0" valType="code"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="image" updates="constant" val="Yes.jpg" valType="str"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="code"/>
+      </ImageComponent>
+      <ImageComponent name="No">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="No" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="(.1, -.5)" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="startVal" updates="None" val="5" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="image" updates="constant" val="No.jpg" valType="str"/>
+        <Param name="size" updates="constant" val="(0.2, 0.2)" valType="code"/>
+      </ImageComponent>
+      <MouseComponent name="mouse">
+        <Param name="name" updates="None" val="mouse" valType="code"/>
+        <Param name="timeRelativeTo" updates="constant" val="routine" valType="str"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutineOnPress" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="startVal" updates="None" val="5" valType="code"/>
+        <Param name="saveMouseState" updates="None" val="final" valType="str"/>
+      </MouseComponent>
+    </Routine>
+    <Routine name="begin">
+      <TextComponent name="text_2">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_2" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="text" updates="constant" val="Press the spacebar to begin." valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_2" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="newwww">
+      <TextComponent name="text_3">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text_3" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="stopVal" updates="constant" val="10" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="text" updates="set every frame" val="$sentence" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_4">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_4" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+      <ImageComponent name="End">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="flipVert" updates="constant" val="False" valType="bool"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="flipHoriz" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="End" valType="code"/>
+        <Param name="color" updates="constant" val="$[1,1,1]" valType="str"/>
+        <Param name="stopVal" updates="constant" val="10" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="mask" updates="constant" val="None" valType="str"/>
+        <Param name="pos" updates="constant" val="(.9, -.5)" valType="code"/>
+        <Param name="interpolate" updates="constant" val="linear" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="texture resolution" updates="constant" val="128" valType="code"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="image" updates="constant" val="End.jpg" valType="str"/>
+        <Param name="size" updates="constant" val="(0.3, 0.3)" valType="code"/>
+      </ImageComponent>
+    </Routine>
+    <Routine name="end_">
+      <TextComponent name="end">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="end" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="stopVal" updates="constant" val="10" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="text" updates="constant" val="The exam has now ended. Thank You" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="practice_instructions_">
+      <TextComponent name="practice_instructions">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="practice_instructions" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="text" updates="constant" val="Now look at the following sentences. Click the correct answer for each sentence. Work as quickly as you can without making mistakes. Press the spacebar to begin." valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="condition" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_3">
+        <Param name="correctAns" updates="constant" val="" valType="str"/>
+        <Param name="storeCorrect" updates="constant" val="False" valType="bool"/>
+        <Param name="name" updates="None" val="key_resp_3" valType="code"/>
+        <Param name="stopVal" updates="constant" val="" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="forceEndRoutine" updates="constant" val="True" valType="bool"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="discard previous" updates="constant" val="True" valType="bool"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="allowedKeys" updates="constant" val="'space'" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="store" updates="constant" val="last key" valType="str"/>
+        <Param name="syncScreenRefresh" updates="constant" val="True" valType="bool"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="instructions">
+      <TextComponent name="text">
+        <Param name="opacity" updates="constant" val="1" valType="code"/>
+        <Param name="colorSpace" updates="constant" val="rgb" valType="str"/>
+        <Param name="name" updates="None" val="text" valType="code"/>
+        <Param name="color" updates="constant" val="white" valType="str"/>
+        <Param name="wrapWidth" updates="constant" val="" valType="code"/>
+        <Param name="stopVal" updates="constant" val="30.0" valType="code"/>
+        <Param name="durationEstim" updates="None" val="" valType="code"/>
+        <Param name="pos" updates="constant" val="(0, 0)" valType="code"/>
+        <Param name="flip" updates="constant" val="" valType="str"/>
+        <Param name="startEstim" updates="None" val="" valType="code"/>
+        <Param name="units" updates="None" val="from exp settings" valType="str"/>
+        <Param name="text" updates="constant" val="Start with the first sentence and read as many sentences as you can.Decide if the answer is yes or no. There are 98 sentences. Keep working until time is up. Work as quickly as you can without making mistakes. If you do make a mistake, simply go back.If you have trouble reading a word or cannot think of the answer, skip that one and go onto the next one.You will have three minutes. You may click the end button during anytime to indicate that you have finished the exam.&amp;#10;" valType="str"/>
+        <Param name="startType" updates="None" val="time (s)" valType="str"/>
+        <Param name="ori" updates="constant" val="0" valType="code"/>
+        <Param name="stopType" updates="None" val="duration (s)" valType="str"/>
+        <Param name="startVal" updates="None" val="0.0" valType="code"/>
+        <Param name="font" updates="constant" val="Arial" valType="str"/>
+        <Param name="letterHeight" updates="constant" val="0.1" valType="code"/>
+      </TextComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instructionsPART1"/>
+    <Routine name="practice_instructions_"/>
+    <Routine name="instructions"/>
+    <Routine name="begin"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="conditionsFile" updates="None" val="reading_fluency_data.xlsx" valType="str"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="98" valType="code"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="conditions" updates="None" val="[{u'answer': u'Y', u'input': None, u'sentence': u'A bird can fly.'}, {u'answer': u'N', u'input': None, u'sentence': u'Cats have five legs.'}, {u'answer': u'Y', u'input': None, u'sentence': u'Some people have long hair'}, {u'answer': u'Y', u'input': None, u'sentence': u'People have teeth.'}, {u'answer': u'N', u'input': None, u'sentence': u'The sky is always brown and yellow.'}, {u'answer': u'Y', u'input': None, u'sentence': u'A clock tells time.'}, {u'answer': u'N', u'input': None, u'sentence': u'The color of grass is red.'}, {u'answer': u'Y', u'input': None, u'sentence': u'A school bus has a driver.'}, {u'answer': u'N', u'input': None, u'sentence': u'People like to drink gum.'}, {u'answer': u'N', u'input': None, u'sentence': u'A butterfly has ten wings.'}, {u'answer': u'N', u'input': None, u'sentence': u'A train goes on the road.'}, {u'answer': u'Y', u'input': None, u'sentence': u'A banana is to eat.'}, {u'answer': u'Y', u'input': None, u'sentence': u'Summer is a season of the year.'}, {u'answer': u'N', u'input': None, u'sentence': u'Ants are very big.'}, {u'answer': u'N', u'input': None, u'sentence': u'A fire is cold.'}, {u'answer': u'N', u'input': None, u'sentence': u'A bus has wings'}, {u'answer': u'N', u'input': None, u'sentence': u'The color of milk is pink.'}, {u'answer': u'N', u'input': None, u'sentence': u'A flower grows in the sky.'}, {u'answer': u'Y', u'input': None, u'sentence': u'A dog may bark at a cat.'}, {u'answer': u'Y', u'input': None, u'sentence': u'A room in a house has walls.'}, {u'answer': u'Y', u'input': None, u'sentence': u'Golf is a game that some people like to play.'}, {u'answer': u'N', u'input': None, u'sentence': u'June is the month after March.'}, {u'answer': u'N', u'input': None, u'sentence': u'Most dogs can fly over the tops of mountains.'}, {u'answer': u'Y', u'input': None, u'sentence': u'Some people like to go swimming on hot days.'}, {u'answer': u'Y', u'input': None, u'sentence': u'Most windows are made of glass.'}, {u'answer': u'Y', u'input': None, u'sentence': u'A pen is for writing.'}, {u'answer': u'N', u'input': None, u'sentence': u'Monkeys live in fish tanks.'}, {u'answer': u'Y', u'input': None, u'sentence': u'An insect may live under a rock.'}, {u'answer': u'N', u'input': None, u'sentence': u'A shoe goes on your head.'}, {u'answer': u'Y', u'input': None, u'sentence': u'A frog may swim in a pond.'}, {u'answer': u'Y', u'input': None, u'sentence': u'A beach by the ocean may have sand.'}, {u'answer': u'N', u'input': None, u'sentence': u'May is the last day of the week.'}, {u'answer': u'N', u'input': None, u'sentence': u'People sit on their hands at the dinner table.'}, {u'answer': u'N', u'input': None, u'sentence': u'You can see only one color in a rainbow.'}, {u'answer': u'Y', u'input': None, u'sentence': u'Cars have four wheels.'}, {u'answer': u'N', u'input': None, u'sentence': u'The sun is smaller than an orange.'}, {u'answer': u'Y', u'input': None, u'sentence': u'A bird may build a nest.'}, {u'answer': u'N', u'input': None, u'sentence': u'All mountains are very flat on top.'}, {u'answer': u'Y', u'input': None, u'sentence': u'You can drink milk through a straw.'}, {u'answer': u'N', u'input': None, u'sentence': u'A map is used to help you find phone numbers.'}, {u'answer': u'Y', u'input': None, u'sentence': u'A hospital has more than one doctor.'}, {u'answer': u'Y', u'input': None, u'sentence': u'Some people eat pie with a fork.'}, {u'answer': u'Y', u'input': None, u'sentence': u'Some little babies cry when they are hungry.'}, {u'answer': u'Y', u'input': None, u'sentence': u'Winter is a season of the year.'}, {u'answer': u'N', u'input': None, u'sentence': u'A table has six arms.'}, {u'answer': u'N', u'input': None, u'sentence': u'People serve dinner on their windows.'}, {u'answer': u'Y', u'input': None, u'sentence': u'Many spiders can spin webs.'}, {u'answer': u'Y', u'input': None, u'sentence': u'Some fish live in the ocean.'}, {u'answer': u'Y', u'input': None, u'sentence': u'Some people buy new homes in small towns.'}, {u'answer': u'Y', u'input': None, u'sentence': u'Some children fly kites on a windy day.'}, {u'answer': u'N', u'input': None, u'sentence': u'A shoe is worn on your ear.'}, {u'answer': u'Y', u'input': None, u'sentence': u'Some children enjoy watching cartoons on television.'}, {u'answer': u'N', u'input': None, u'sentence': u'Snow is often green in color.'}, {u'answer': u'N', u'input': None, u'sentence': u'A monkey is an insect that flies.'}, {u'answer': u'Y', u'input': None, u'sentence': u'A door may have a lock.'}, {u'answer': u'N', u'input': None, u'sentence': u'A hammer if often used to write a story.'}, {u'answer': u'N', u'input': None, u'sentence': u&quot;A plant's roots are above ground.&quot;}, {u'answer': u'Y', u'input': None, u'sentence': u'A dog may fight with another dog.'}, {u'answer': u'N', u'input': None, u'sentence': u'A bicycle needs gas each day.'}, {u'answer': u'N', u'input': None, u'sentence': u'Money is often used to start forest fires. '}, {u'answer': u'Y', u'input': None, u'sentence': u'One can travel faster on an airplane than on a bicycle.'}, {u'answer': u'N', u'input': None, u'sentence': u'A cook works every day in a bank.'}, {u'answer': u'N', u'input': None, u'sentence': u'Every year all cars need to have new engines.'}, {u'answer': u'N', u'input': None, u'sentence': u'A baseball looks like a square.'}, {u'answer': u'N', u'input': None, u'sentence': u'Doctors spend most of their time driving race cars.'}, {u'answer': u'Y', u'input': None, u'sentence': u'Tennis is a game that some people like to play.'}, {u'answer': u'N', u'input': None, u'sentence': u'Many people place pictures on the floors of their homes.'}, {u'answer': u'N', u'input': None, u'sentence': u'A banker works in a kitchen.'}, {u'answer': u'Y', u'input': None, u'sentence': u'A coat may be hung on a hanger in a closet.'}, {u'answer': u'N', u'input': None, u'sentence': u'Glasses help people to hear.'}, {u'answer': u'N', u'input': None, u'sentence': u'A camera is used to help you find your way.'}, {u'answer': u'N', u'input': None, u'sentence': u'Tires are always flat.'}, {u'answer': u'Y', u'input': None, u'sentence': u'A pitcher maybe used to pour water.'}, {u'answer': u'N', u'input': None, u'sentence': u'A cup must have a lid.'}, {u'answer': u'N', u'input': None, u'sentence': u'An elevator goes up to the moon.'}, {u'answer': u'N', u'input': None, u'sentence': u'Most clouds are brown and furry.'}, {u'answer': u'Y', u'input': None, u'sentence': u'There are many different types of jewelry.'}, {u'answer': u'N', u'input': None, u'sentence': u'Most people use keys to comb their hair.'}, {u'answer': u'Y', u'input': None, u'sentence': u'A calendar has both the weeks and days.'}, {u'answer': u'Y', u'input': None, u'sentence': u'Some people like to go to another country for vacation.'}, {u'answer': u'Y', u'input': None, u'sentence': u'A pencil may have an eraser on the end.'}, {u'answer': u'N', u'input': None, u'sentence': u'A neighbor is a person who lives very far away.'}, {u'answer': u'N', u'input': None, u'sentence': u'Bakes potatoes grow on trees.'}, {u'answer': u'N', u'input': None, u'sentence': u'A classroom teacher works all day in a grocery store.'}, {u'answer': u'Y', u'input': None, u'sentence': u'A flashlight may need batteries to operate.'}, {u'answer': u'Y', u'input': None, u'sentence': u'Some people rent apartments in large cities.'}, {u'answer': u'N', u'input': None, u'sentence': u'A goat talks in complete sentences. '}, {u'answer': u'N', u'input': None, u'sentence': u'All people avoid doctors when they feel sick.'}, {u'answer': u'Y', u'input': None, u'sentence': u'A carpenter builds things with wood.'}, {u'answer': u'Y', u'input': None, u'sentence': u'Newly released movies are often shown at theaters.'}, {u'answer': u'N', u'input': None, u'sentence': u'A magazine has only one page.'}, {u'answer': u'Y', u'input': None, u'sentence': u'A photo album may hold many pictures.'}, {u'answer': u'N', u'input': None, u'sentence': u'Most dogs can climb straight up steep walls.'}, {u'answer': u'Y', u'input': None, u'sentence': u'A fence can provide a border around a property.'}, {u'answer': u'N', u'input': None, u'sentence': u'Most modern houses do not have any doors or windows.'}, {u'answer': u'Y', u'input': None, u'sentence': u'Some people make hotel reservations for only one night.'}, {u'answer': u'Y', u'input': None, u'sentence': u'A talented athlete may enjoy several different sports.'}, {u'answer': u'Y', u'input': None, u'sentence': u'People may use a map to find certain locations.'}]" valType="str"/>
+      <Param name="Selected rows" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="newwww"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="end_"/>
+  </Flow>
+</PsychoPy2experiment>
