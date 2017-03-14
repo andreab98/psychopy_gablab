@@ -1,0 +1,4 @@
+trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,answer,input,sentence,mouse.x,mouse.y,mouse.leftButton,mouse.midButton,mouse.rightButton,key_resp_3.keys,key_resp_3.rt,key_resp_2.keys,key_resp_2.rt,date,frameRate,expName,session,participant,
+,,,,,,,0.0819444444444,-0.488888888889,1,0,0,,,,,2017_Mar_14_0106,59.9441476514,reading_fluency,001,h,
+,,,,,,,,,,,,space,1.37077403069,,,2017_Mar_14_0106,59.9441476514,reading_fluency,001,h,
+,,,,,,,,,,,,,,space,66.3129811287,2017_Mar_14_0106,59.9441476514,reading_fluency,001,h,

@@ -1,0 +1,298 @@
+17.3254 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1115ef3d0>, name='window1', pos=[0, 0], screen=0, size=array([1440,  900]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+17.3256 	EXP 	window1: recordFrameIntervals = False
+17.4895 	EXP 	window1: recordFrameIntervals = True
+17.6735 	EXP 	window1: recordFrameIntervals = False
+18.0461 	EXP 	Created beginning = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='beginning', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+18.0588 	EXP 	Created sample_1 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='sample_1', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'A cow is an animal.', units=u'norm', win=Window(...), wrapWidth=1)
+18.2806 	EXP 	Created Yes = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='Yes.jpg', interpolate=True, mask=None, maskParams=None, name='Yes', opacity=1.0, ori=0.0, pos=array([-0.11, -0.5 ]), size=array([ 0.2,  0.2]), texRes=128, units=u'norm', win=Window(...))
+18.2862 	EXP 	Created No = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='No.jpg', interpolate=True, mask=None, maskParams=None, name='No', opacity=1.0, ori=0.0, pos=array([ 0.1, -0.5]), size=array([ 0.2,  0.2]), texRes=128, units=u'norm', win=Window(...))
+18.3141 	EXP 	Created unnamed ShapeStim = ShapeStim(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', interpolate=True, lineColor='white', lineColorSpace='named', lineWidth=1.5, name='unnamed ShapeStim', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+18.3163 	EXP 	Created unnamed ShapeStim = ShapeStim(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', interpolate=True, lineColor='white', lineColorSpace='named', lineWidth=1.5, name='unnamed ShapeStim', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+18.3545 	EXP 	Created practice_instructions = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='practice_instructions', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+18.4307 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+18.4395 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'Press the spacebar to begin.', units=u'norm', win=Window(...), wrapWidth=1)
+18.4461 	EXP 	Created text_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_3', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+18.4586 	EXP 	Created End = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='End.jpg', interpolate=True, mask=None, maskParams=None, name='End', opacity=1.0, ori=0.0, pos=array([ 0.9, -0.5]), size=array([ 0.3,  0.3]), texRes=128, units=u'norm', win=Window(...))
+18.4695 	EXP 	Created end = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='end', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'The exam has now ended. Thank You', units=u'norm', win=Window(...), wrapWidth=1)
+18.4899 	EXP 	beginning: autoDraw = True
+20.1581 	DATA 	Mouse: Left button down, pos=(781,392)
+20.2409 	DATA 	Mouse:  Left button up, pos=(781,392)
+20.7624 	DATA 	Keypress: space
+23.4740 	EXP 	beginning: autoDraw = False
+23.4907 	EXP 	sample_1: autoDraw = True
+23.4907 	EXP 	Yes: autoDraw = True
+23.4907 	EXP 	No: autoDraw = True
+28.6420 	DATA 	Mouse: Left button down, pos=(806,224)
+28.7449 	DATA 	Mouse:  Left button up, pos=(808,224)
+29.4588 	DATA 	Mouse: Left button down, pos=(826,230)
+29.6257 	DATA 	Mouse:  Left button up, pos=(827,230)
+30.0259 	DATA 	Mouse: Left button down, pos=(848,196)
+30.1422 	DATA 	Mouse:  Left button up, pos=(848,196)
+30.6090 	DATA 	Mouse: Left button down, pos=(855,194)
+30.7422 	DATA 	Mouse:  Left button up, pos=(855,194)
+31.0949 	DATA 	Mouse: Left button down, pos=(855,240)
+31.2258 	DATA 	Mouse:  Left button up, pos=(855,240)
+31.4089 	DATA 	Mouse: Left button down, pos=(802,240)
+31.4248 	EXP 	beginning: autoDraw = False
+31.4248 	EXP 	sample_1: autoDraw = False
+31.4248 	EXP 	Yes: autoDraw = False
+31.4248 	EXP 	No: autoDraw = False
+31.4248 	EXP 	practice_instructions: autoDraw = True
+31.5595 	DATA 	Mouse:  Left button up, pos=(802,240)
+33.0596 	DATA 	Keypress: space
+33.0743 	EXP 	practice_instructions: autoDraw = False
+33.0743 	EXP 	text: autoDraw = True
+38.0756 	EXP 	text: autoDraw = False
+38.0756 	EXP 	text: autoDraw = False
+38.0756 	EXP 	text_2: autoDraw = True
+42.2115 	DATA 	Keypress: space
+42.2473 	EXP 	Imported reading_fluency_data.xlsx as conditions, 98 conditions, 3 params
+42.2483 	EXP 	Created sequence: sequential, trialTypes=98, nReps=98, seed=None
+42.2491 	EXP 	New trial (rep=0, index=0): {u'answer': u'Y', u'input': None, u'sentence': u'A bird can fly.'}
+42.2758 	EXP 	text_2: autoDraw = False
+42.2758 	EXP 	beginning: autoDraw = True
+42.2758 	EXP 	beginning: autoDraw = True
+42.2758 	EXP 	beginning: autoDraw = True
+42.2758 	EXP 	text_3: autoDraw = True
+42.2758 	EXP 	Yes: autoDraw = True
+42.2758 	EXP 	No: autoDraw = True
+42.2758 	EXP 	End: autoDraw = True
+46.5940 	DATA 	Mouse: Left button down, pos=(816,224)
+46.7607 	DATA 	Mouse:  Left button up, pos=(816,224)
+47.2109 	DATA 	Mouse: Left button down, pos=(638,248)
+47.3605 	DATA 	Mouse:  Left button up, pos=(638,248)
+47.6109 	DATA 	Mouse: Left button down, pos=(638,216)
+47.7439 	DATA 	Mouse:  Left button up, pos=(638,216)
+47.8275 	DATA 	Mouse: Left button down, pos=(638,216)
+47.9276 	DATA 	Mouse:  Left button up, pos=(638,216)
+48.2276 	DATA 	Mouse: Left button down, pos=(688,390)
+48.3625 	DATA 	Mouse:  Left button up, pos=(688,390)
+48.6275 	DATA 	Mouse: Left button down, pos=(748,530)
+48.7610 	DATA 	Mouse:  Left button up, pos=(748,530)
+49.0961 	DATA 	Keypress: space
+49.5457 	DATA 	Keypress: space
+50.1453 	DATA 	Mouse: Left button down, pos=(771,226)
+50.2943 	DATA 	Mouse:  Left button up, pos=(771,226)
+50.4612 	DATA 	Mouse: Left button down, pos=(943,253)
+50.5944 	DATA 	Mouse:  Left button up, pos=(943,253)
+50.9112 	DATA 	Mouse: Left button down, pos=(869,455)
+51.0438 	DATA 	Mouse:  Left button up, pos=(869,455)
+51.3448 	DATA 	Mouse: Left button down, pos=(837,205)
+51.4943 	DATA 	Mouse:  Left button up, pos=(837,205)
+51.6112 	DATA 	Mouse: Left button down, pos=(837,205)
+51.7440 	DATA 	Mouse:  Left button up, pos=(837,205)
+51.8629 	DATA 	Mouse: Left button down, pos=(837,205)
+51.9444 	DATA 	Mouse:  Left button up, pos=(837,205)
+52.0464 	DATA 	Mouse: Left button down, pos=(837,205)
+52.1443 	DATA 	Mouse:  Left button up, pos=(837,205)
+52.2601 	EXP 	text_3: autoDraw = False
+52.2601 	EXP 	End: autoDraw = False
+52.6789 	DATA 	Keypress: escape
+17.3254 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x1115ef3d0>, name='window1', pos=[0, 0], screen=0, size=array([1440,  900]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+17.3256 	EXP 	window1: recordFrameIntervals = False
+17.4895 	EXP 	window1: recordFrameIntervals = True
+17.6735 	EXP 	window1: recordFrameIntervals = False
+18.0461 	EXP 	Created beginning = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='beginning', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+18.0588 	EXP 	Created sample_1 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='sample_1', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'A cow is an animal.', units=u'norm', win=Window(...), wrapWidth=1)
+18.2806 	EXP 	Created Yes = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='Yes.jpg', interpolate=True, mask=None, maskParams=None, name='Yes', opacity=1.0, ori=0.0, pos=array([-0.11, -0.5 ]), size=array([ 0.2,  0.2]), texRes=128, units=u'norm', win=Window(...))
+18.2862 	EXP 	Created No = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='No.jpg', interpolate=True, mask=None, maskParams=None, name='No', opacity=1.0, ori=0.0, pos=array([ 0.1, -0.5]), size=array([ 0.2,  0.2]), texRes=128, units=u'norm', win=Window(...))
+18.3141 	EXP 	Created unnamed ShapeStim = ShapeStim(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', interpolate=True, lineColor='white', lineColorSpace='named', lineWidth=1.5, name='unnamed ShapeStim', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+18.3163 	EXP 	Created unnamed ShapeStim = ShapeStim(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', interpolate=True, lineColor='white', lineColorSpace='named', lineWidth=1.5, name='unnamed ShapeStim', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+18.3545 	EXP 	Created practice_instructions = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='practice_instructions', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+18.4307 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+18.4395 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'Press the spacebar to begin.', units=u'norm', win=Window(...), wrapWidth=1)
+18.4461 	EXP 	Created text_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_3', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+18.4586 	EXP 	Created End = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='End.jpg', interpolate=True, mask=None, maskParams=None, name='End', opacity=1.0, ori=0.0, pos=array([ 0.9, -0.5]), size=array([ 0.3,  0.3]), texRes=128, units=u'norm', win=Window(...))
+18.4695 	EXP 	Created end = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='end', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'The exam has now ended. Thank You', units=u'norm', win=Window(...), wrapWidth=1)
+18.4899 	EXP 	beginning: autoDraw = True
+20.1581 	DATA 	Mouse: Left button down, pos=(781,392)
+20.2409 	DATA 	Mouse:  Left button up, pos=(781,392)
+20.7624 	DATA 	Keypress: space
+23.4740 	EXP 	beginning: autoDraw = False
+23.4907 	EXP 	sample_1: autoDraw = True
+23.4907 	EXP 	Yes: autoDraw = True
+23.4907 	EXP 	No: autoDraw = True
+28.6420 	DATA 	Mouse: Left button down, pos=(806,224)
+28.7449 	DATA 	Mouse:  Left button up, pos=(808,224)
+29.4588 	DATA 	Mouse: Left button down, pos=(826,230)
+29.6257 	DATA 	Mouse:  Left button up, pos=(827,230)
+30.0259 	DATA 	Mouse: Left button down, pos=(848,196)
+30.1422 	DATA 	Mouse:  Left button up, pos=(848,196)
+30.6090 	DATA 	Mouse: Left button down, pos=(855,194)
+30.7422 	DATA 	Mouse:  Left button up, pos=(855,194)
+31.0949 	DATA 	Mouse: Left button down, pos=(855,240)
+31.2258 	DATA 	Mouse:  Left button up, pos=(855,240)
+31.4089 	DATA 	Mouse: Left button down, pos=(802,240)
+31.4248 	EXP 	beginning: autoDraw = False
+31.4248 	EXP 	sample_1: autoDraw = False
+31.4248 	EXP 	Yes: autoDraw = False
+31.4248 	EXP 	No: autoDraw = False
+31.4248 	EXP 	practice_instructions: autoDraw = True
+31.5595 	DATA 	Mouse:  Left button up, pos=(802,240)
+33.0596 	DATA 	Keypress: space
+33.0743 	EXP 	practice_instructions: autoDraw = False
+33.0743 	EXP 	text: autoDraw = True
+38.0756 	EXP 	text: autoDraw = False
+38.0756 	EXP 	text: autoDraw = False
+38.0756 	EXP 	text_2: autoDraw = True
+42.2115 	DATA 	Keypress: space
+42.2473 	EXP 	Imported reading_fluency_data.xlsx as conditions, 98 conditions, 3 params
+42.2483 	EXP 	Created sequence: sequential, trialTypes=98, nReps=98, seed=None
+42.2491 	EXP 	New trial (rep=0, index=0): {u'answer': u'Y', u'input': None, u'sentence': u'A bird can fly.'}
+42.2758 	EXP 	text_2: autoDraw = False
+42.2758 	EXP 	beginning: autoDraw = True
+42.2758 	EXP 	beginning: autoDraw = True
+42.2758 	EXP 	beginning: autoDraw = True
+42.2758 	EXP 	text_3: autoDraw = True
+42.2758 	EXP 	Yes: autoDraw = True
+42.2758 	EXP 	No: autoDraw = True
+42.2758 	EXP 	End: autoDraw = True
+46.5940 	DATA 	Mouse: Left button down, pos=(816,224)
+46.7607 	DATA 	Mouse:  Left button up, pos=(816,224)
+47.2109 	DATA 	Mouse: Left button down, pos=(638,248)
+47.3605 	DATA 	Mouse:  Left button up, pos=(638,248)
+47.6109 	DATA 	Mouse: Left button down, pos=(638,216)
+47.7439 	DATA 	Mouse:  Left button up, pos=(638,216)
+47.8275 	DATA 	Mouse: Left button down, pos=(638,216)
+47.9276 	DATA 	Mouse:  Left button up, pos=(638,216)
+48.2276 	DATA 	Mouse: Left button down, pos=(688,390)
+48.3625 	DATA 	Mouse:  Left button up, pos=(688,390)
+48.6275 	DATA 	Mouse: Left button down, pos=(748,530)
+48.7610 	DATA 	Mouse:  Left button up, pos=(748,530)
+49.0961 	DATA 	Keypress: space
+49.5457 	DATA 	Keypress: space
+50.1453 	DATA 	Mouse: Left button down, pos=(771,226)
+50.2943 	DATA 	Mouse:  Left button up, pos=(771,226)
+50.4612 	DATA 	Mouse: Left button down, pos=(943,253)
+50.5944 	DATA 	Mouse:  Left button up, pos=(943,253)
+50.9112 	DATA 	Mouse: Left button down, pos=(869,455)
+51.0438 	DATA 	Mouse:  Left button up, pos=(869,455)
+51.3448 	DATA 	Mouse: Left button down, pos=(837,205)
+51.4943 	DATA 	Mouse:  Left button up, pos=(837,205)
+51.6112 	DATA 	Mouse: Left button down, pos=(837,205)
+51.7440 	DATA 	Mouse:  Left button up, pos=(837,205)
+51.8629 	DATA 	Mouse: Left button down, pos=(837,205)
+51.9444 	DATA 	Mouse:  Left button up, pos=(837,205)
+52.0464 	DATA 	Mouse: Left button down, pos=(837,205)
+52.1443 	DATA 	Mouse:  Left button up, pos=(837,205)
+52.2601 	EXP 	text_3: autoDraw = False
+52.2601 	EXP 	End: autoDraw = False
+52.6789 	DATA 	Keypress: escape
+21.4067 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x111592450>, name='window1', pos=[0, 0], screen=0, size=array([1440,  900]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+21.4068 	EXP 	window1: recordFrameIntervals = False
+21.5722 	EXP 	window1: recordFrameIntervals = True
+21.7558 	EXP 	window1: recordFrameIntervals = False
+22.0379 	EXP 	Created beginning = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='beginning', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+22.0453 	EXP 	Created sample_1 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='sample_1', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'A cow is an animal.', units=u'norm', win=Window(...), wrapWidth=1)
+22.2326 	EXP 	Created Yes = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='Yes.jpg', interpolate=True, mask=None, maskParams=None, name='Yes', opacity=1.0, ori=0.0, pos=array([-0.11, -0.5 ]), size=array([ 0.2,  0.2]), texRes=128, units=u'norm', win=Window(...))
+22.2380 	EXP 	Created No = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='No.jpg', interpolate=True, mask=None, maskParams=None, name='No', opacity=1.0, ori=0.0, pos=array([ 0.1, -0.5]), size=array([ 0.2,  0.2]), texRes=128, units=u'norm', win=Window(...))
+22.2719 	EXP 	Created unnamed ShapeStim = ShapeStim(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', interpolate=True, lineColor='white', lineColorSpace='named', lineWidth=1.5, name='unnamed ShapeStim', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+22.2739 	EXP 	Created unnamed ShapeStim = ShapeStim(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', interpolate=True, lineColor='white', lineColorSpace='named', lineWidth=1.5, name='unnamed ShapeStim', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+22.3164 	EXP 	Created practice_instructions = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='practice_instructions', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+22.3967 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+22.4034 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'Press the spacebar to begin.', units=u'norm', win=Window(...), wrapWidth=1)
+22.4084 	EXP 	Created text_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_3', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+22.4127 	EXP 	Created End = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='End.jpg', interpolate=True, mask=None, maskParams=None, name='End', opacity=1.0, ori=0.0, pos=array([ 0.9, -0.5]), size=array([ 0.3,  0.3]), texRes=128, units=u'norm', win=Window(...))
+22.4244 	EXP 	Created end = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='end', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'The exam has now ended. Thank You', units=u'norm', win=Window(...), wrapWidth=1)
+22.4386 	EXP 	beginning: autoDraw = True
+23.2729 	DATA 	Mouse: Left button down, pos=(952,455)
+23.4229 	DATA 	Mouse:  Left button up, pos=(952,455)
+27.4390 	EXP 	beginning: autoDraw = False
+27.4566 	EXP 	sample_1: autoDraw = True
+27.4566 	EXP 	Yes: autoDraw = True
+27.4566 	EXP 	No: autoDraw = True
+35.2743 	DATA 	Mouse: Left button down, pos=(659,212)
+35.4573 	DATA 	Mouse:  Left button up, pos=(659,212)
+36.4240 	DATA 	Mouse: Left button down, pos=(590,237)
+36.6408 	DATA 	Mouse:  Left button up, pos=(590,237)
+37.6250 	DATA 	Mouse: Left button down, pos=(776,241)
+37.6388 	EXP 	beginning: autoDraw = False
+37.6388 	EXP 	sample_1: autoDraw = False
+37.6388 	EXP 	Yes: autoDraw = False
+37.6388 	EXP 	No: autoDraw = False
+37.6388 	EXP 	practice_instructions: autoDraw = True
+37.8415 	DATA 	Mouse:  Left button up, pos=(776,241)
+50.9632 	DATA 	Keypress: space
+50.9747 	EXP 	practice_instructions: autoDraw = False
+50.9747 	EXP 	text: autoDraw = True
+55.9745 	EXP 	text: autoDraw = False
+55.9745 	EXP 	text: autoDraw = False
+55.9745 	EXP 	text_2: autoDraw = True
+57.8643 	DATA 	Keypress: space
+57.9091 	EXP 	Imported reading_fluency_data.xlsx as conditions, 98 conditions, 3 params
+57.9098 	EXP 	Created sequence: sequential, trialTypes=98, nReps=98, seed=None
+57.9106 	EXP 	New trial (rep=0, index=0): {u'answer': u'Y', u'input': None, u'sentence': u'A bird can fly.'}
+57.9253 	EXP 	text_2: autoDraw = False
+57.9253 	EXP 	End: autoDraw = True
+60.1444 	DATA 	Mouse: Left button down, pos=(1332,224)
+60.2931 	DATA 	Mouse:  Left button up, pos=(1332,224)
+60.4769 	DATA 	Mouse: Left button down, pos=(896,197)
+60.6267 	DATA 	Mouse:  Left button up, pos=(896,197)
+60.8936 	DATA 	Mouse: Left button down, pos=(686,253)
+61.0439 	DATA 	Mouse:  Left button up, pos=(686,253)
+61.2771 	DATA 	Mouse: Left button down, pos=(1020,179)
+61.4101 	DATA 	Mouse:  Left button up, pos=(1020,179)
+61.6940 	DATA 	Mouse: Left button down, pos=(761,406)
+61.8441 	DATA 	Mouse:  Left button up, pos=(762,400)
+62.0101 	DATA 	Mouse: Left button down, pos=(978,398)
+62.2266 	DATA 	Mouse:  Left button up, pos=(978,398)
+62.3280 	DATA 	Keypress: escape
+21.4067 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x111592450>, name='window1', pos=[0, 0], screen=0, size=array([1440,  900]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+21.4068 	EXP 	window1: recordFrameIntervals = False
+21.5722 	EXP 	window1: recordFrameIntervals = True
+21.7558 	EXP 	window1: recordFrameIntervals = False
+22.0379 	EXP 	Created beginning = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='beginning', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+22.0453 	EXP 	Created sample_1 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='sample_1', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'A cow is an animal.', units=u'norm', win=Window(...), wrapWidth=1)
+22.2326 	EXP 	Created Yes = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='Yes.jpg', interpolate=True, mask=None, maskParams=None, name='Yes', opacity=1.0, ori=0.0, pos=array([-0.11, -0.5 ]), size=array([ 0.2,  0.2]), texRes=128, units=u'norm', win=Window(...))
+22.2380 	EXP 	Created No = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='No.jpg', interpolate=True, mask=None, maskParams=None, name='No', opacity=1.0, ori=0.0, pos=array([ 0.1, -0.5]), size=array([ 0.2,  0.2]), texRes=128, units=u'norm', win=Window(...))
+22.2719 	EXP 	Created unnamed ShapeStim = ShapeStim(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', interpolate=True, lineColor='white', lineColorSpace='named', lineWidth=1.5, name='unnamed ShapeStim', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+22.2739 	EXP 	Created unnamed ShapeStim = ShapeStim(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', interpolate=True, lineColor='white', lineColorSpace='named', lineWidth=1.5, name='unnamed ShapeStim', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+22.3164 	EXP 	Created practice_instructions = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='practice_instructions', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+22.3967 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+22.4034 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'Press the spacebar to begin.', units=u'norm', win=Window(...), wrapWidth=1)
+22.4084 	EXP 	Created text_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_3', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+22.4127 	EXP 	Created End = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='End.jpg', interpolate=True, mask=None, maskParams=None, name='End', opacity=1.0, ori=0.0, pos=array([ 0.9, -0.5]), size=array([ 0.3,  0.3]), texRes=128, units=u'norm', win=Window(...))
+22.4244 	EXP 	Created end = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='end', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'The exam has now ended. Thank You', units=u'norm', win=Window(...), wrapWidth=1)
+22.4386 	EXP 	beginning: autoDraw = True
+23.2729 	DATA 	Mouse: Left button down, pos=(952,455)
+23.4229 	DATA 	Mouse:  Left button up, pos=(952,455)
+27.4390 	EXP 	beginning: autoDraw = False
+27.4566 	EXP 	sample_1: autoDraw = True
+27.4566 	EXP 	Yes: autoDraw = True
+27.4566 	EXP 	No: autoDraw = True
+35.2743 	DATA 	Mouse: Left button down, pos=(659,212)
+35.4573 	DATA 	Mouse:  Left button up, pos=(659,212)
+36.4240 	DATA 	Mouse: Left button down, pos=(590,237)
+36.6408 	DATA 	Mouse:  Left button up, pos=(590,237)
+37.6250 	DATA 	Mouse: Left button down, pos=(776,241)
+37.6388 	EXP 	beginning: autoDraw = False
+37.6388 	EXP 	sample_1: autoDraw = False
+37.6388 	EXP 	Yes: autoDraw = False
+37.6388 	EXP 	No: autoDraw = False
+37.6388 	EXP 	practice_instructions: autoDraw = True
+37.8415 	DATA 	Mouse:  Left button up, pos=(776,241)
+50.9632 	DATA 	Keypress: space
+50.9747 	EXP 	practice_instructions: autoDraw = False
+50.9747 	EXP 	text: autoDraw = True
+55.9745 	EXP 	text: autoDraw = False
+55.9745 	EXP 	text: autoDraw = False
+55.9745 	EXP 	text_2: autoDraw = True
+57.8643 	DATA 	Keypress: space
+57.9091 	EXP 	Imported reading_fluency_data.xlsx as conditions, 98 conditions, 3 params
+57.9098 	EXP 	Created sequence: sequential, trialTypes=98, nReps=98, seed=None
+57.9106 	EXP 	New trial (rep=0, index=0): {u'answer': u'Y', u'input': None, u'sentence': u'A bird can fly.'}
+57.9253 	EXP 	text_2: autoDraw = False
+57.9253 	EXP 	End: autoDraw = True
+60.1444 	DATA 	Mouse: Left button down, pos=(1332,224)
+60.2931 	DATA 	Mouse:  Left button up, pos=(1332,224)
+60.4769 	DATA 	Mouse: Left button down, pos=(896,197)
+60.6267 	DATA 	Mouse:  Left button up, pos=(896,197)
+60.8936 	DATA 	Mouse: Left button down, pos=(686,253)
+61.0439 	DATA 	Mouse:  Left button up, pos=(686,253)
+61.2771 	DATA 	Mouse: Left button down, pos=(1020,179)
+61.4101 	DATA 	Mouse:  Left button up, pos=(1020,179)
+61.6940 	DATA 	Mouse: Left button down, pos=(761,406)
+61.8441 	DATA 	Mouse:  Left button up, pos=(762,400)
+62.0101 	DATA 	Mouse: Left button down, pos=(978,398)
+62.2266 	DATA 	Mouse:  Left button up, pos=(978,398)
+62.3280 	DATA 	Keypress: escape

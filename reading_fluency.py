@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy2 Experiment Builder (v1.84.2),
-    on Tue Feb 28 16:07:57 2017
+    on Mon Mar 13 17:00:08 2017
 If you publish work using this script please cite the PsychoPy publications:
     Peirce, JW (2007) PsychoPy - Psychophysics software in Python.
         Journal of Neuroscience Methods, 162(1-2), 8-13.
@@ -11,7 +11,7 @@ If you publish work using this script please cite the PsychoPy publications:
 """
 
 from __future__ import absolute_import, division
-from psychopy import locale_setup, gui, visual, core, data, event, logging, sound, hardware
+from psychopy import locale_setup, gui, visual, core, data, event, logging, sound
 from psychopy.constants import (NOT_STARTED, STARTED, PLAYING, PAUSED,
                                 STOPPED, FINISHED, PRESSED, RELEASED, FOREVER)
 import numpy as np  # whole numpy lib is available, prepend 'np.'
@@ -34,8 +34,21 @@ if dlg.OK == False:
 expInfo['date'] = data.getDateStr()  # add a simple timestamp
 expInfo['expName'] = expName
 
+
+
+
+
+# Setup files for saving
+if not os.path.isdir('data'):
+    os.makedirs('data')  # if this fails (e.g. permissions) we will get error
+filename = 'data' + os.path.sep + '%s_%s' %(expInfo['participant'],expInfo['session'])
+logFile = logging.LogFile(filename+'.log', level=logging.EXP)
+logging.console.setLevel(logging.WARNING)  # this outputs to the screen, not a file
+
+
+
 # Data file name stem = absolute path + name; later add .psyexp, .csv, .log, etc
-filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])
+#filename = _thisDir + os.sep + u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])
 
 # An ExperimentHandler isn't essential but helps with data saving
 thisExp = data.ExperimentHandler(name=expName, version='',
@@ -57,6 +70,7 @@ win = visual.Window(
     allowGUI=False, allowStencil=False,
     monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
     blendMode='avg', useFBO=True)
+
 # store frame rate of monitor if we can measure it
 expInfo['frameRate'] = win.getActualFrameRate()
 if expInfo['frameRate'] != None:
@@ -67,72 +81,85 @@ else:
 # Initialize components for Routine "instructionsPART1"
 instructionsPART1Clock = core.Clock()
 beginning = visual.TextStim(win=win, name='beginning',
-    text=u'I want you to read some sentences and decide if the answer is yes or no.',
-    font=u'Arial',
+    text='I want you to read some sentences and decide if the following sentences make logical sense. Answer yes or no respectively.',
+    font='Arial',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color=u'white', colorSpace='rgb', opacity=1,
+    color='white', colorSpace='rgb', opacity=1,
     depth=0.0);
 sample_1 = visual.TextStim(win=win, name='sample_1',
-    text=u'A cow is an animal.',
-    font=u'Arial',
+    text='A cow is an animal.',
+    font='Arial',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color=u'white', colorSpace='rgb', opacity=1,
+    color='white', colorSpace='rgb', opacity=1,
     depth=-1.0);
 Yes = visual.ImageStim(
     win=win, name='Yes',
-    image=u'Yes.jpg', mask=None,
+    image='Yes.jpg', mask=None,
     ori=0, pos=(-.11, -.5), size=(0.2, 0.2),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=-2.0)
 No = visual.ImageStim(
     win=win, name='No',
-    image=u'No.jpg', mask=None,
+    image='No.jpg', mask=None,
     ori=0, pos=(.1, -.5), size=(0.2, 0.2),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=-3.0)
+    
+NoShape = visual.ShapeStim(
+    win, units='', lineWidth=1.5, vertices=((.1, -.5), (.1, -.3), (.3, -.5),(.3,-.3)), 
+    windingRule=None, closeShape=True, pos=(0, 0), 
+    size=1, ori=0.0, opacity=1.0, contrast=1.0, depth=0, 
+    interpolate=True, name=None, autoLog=None, autoDraw=False)
+
+YesShape = visual.ShapeStim(
+    win, units='', lineWidth=1.5, vertices=((-.11, -.5), (-.11, -.3), (.09, -.5),(.09,-.3)), 
+    windingRule=None, closeShape=True, pos=(0, 0), 
+    size=1, ori=0.0, opacity=1.0, contrast=1.0, depth=0, 
+    interpolate=True, name=None, autoLog=None, autoDraw=False)
+    
 mouse = event.Mouse(win=win)
 x, y = [None, None]
 
 # Initialize components for Routine "practice_instructions_"
 practice_instructions_Clock = core.Clock()
 practice_instructions = visual.TextStim(win=win, name='practice_instructions',
-    text=u'Now look at the following sentences. Click the correct answer for each sentence. Work as quickly as you can without making mistakes. Press the spacebar to begin.',
-    font=u'Arial',
+    text='Now look at the following sentences. Click the correct answer for each sentence. Work as quickly as you can without making mistakes. Press the spacebar to begin.',
+    font='Arial',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color=u'white', colorSpace='rgb', opacity=1,
+    color='white', colorSpace='rgb', opacity=1,
     depth=0.0);
 
 # Initialize components for Routine "instructions"
 instructionsClock = core.Clock()
 text = visual.TextStim(win=win, name='text',
-    text=u'Start with the first sentence and read as many sentences as you can.Decide if the answer is yes or no. There are 98 sentences. Keep working until time is up. Work as quickly as you can without making mistakes. If you do make a mistake, simply go back.If you have trouble reading a word or cannot think of the answer, skip that one and go onto the next one.You will have three minutes. You may click the end button during anytime to indicate that you have finished the exam.\n',
-    font=u'Arial',
+    text='Start with the first sentence and read as many sentences as you can. Decide if the answer is yes or no. There are 98 sentences. Keep working until time is up. Work as quickly as you can without making mistakes. If you do make a mistake, simply go back. If you have trouble reading a word or cannot think of the answer, skip that one and go onto the next one. You will have three minutes. You may click the end button during anytime to indicate that you have finished the exam.\n',
+    font='Arial',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color=u'white', colorSpace='rgb', opacity=1,
+    color='white', colorSpace='rgb', opacity=1,
     depth=0.0);
 
 # Initialize components for Routine "begin"
 beginClock = core.Clock()
 text_2 = visual.TextStim(win=win, name='text_2',
-    text=u'Press the spacebar to begin.',
-    font=u'Arial',
+    text='Press the spacebar to begin.',
+    font='Arial',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color=u'white', colorSpace='rgb', opacity=1,
+    color='white', colorSpace='rgb', opacity=1,
     depth=0.0);
 
 # Initialize components for Routine "newwww"
 newwwwClock = core.Clock()
 text_3 = visual.TextStim(win=win, name='text_3',
     text='default text',
-    font=u'Arial',
+    font='Arial',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color=u'white', colorSpace='rgb', opacity=1,
+    color='white', colorSpace='rgb', opacity=1,
     depth=0.0);
 End = visual.ImageStim(
     win=win, name='End',
-    image=u'End.jpg', mask=None,
+    image='End.jpg', mask=None,
     ori=0, pos=(.9, -.5), size=(0.3, 0.3),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
@@ -141,10 +168,10 @@ End = visual.ImageStim(
 # Initialize components for Routine "end_"
 end_Clock = core.Clock()
 end = visual.TextStim(win=win, name='end',
-    text=u'The exam has now ended. Thank You',
-    font=u'Arial',
+    text='The exam has now ended. Thank You',
+    font='Arial',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
-    color=u'white', colorSpace='rgb', opacity=1,
+    color='white', colorSpace='rgb', opacity=1,
     depth=0.0);
 
 # Create some handy timers
@@ -208,10 +235,16 @@ while continueRoutine:
         mouse.frameNStart = frameN  # exact frame index
         mouse.status = STARTED
         event.mouseButtons = [0, 0, 0]  # reset mouse buttons to be 'up'
+
     if mouse.status == STARTED:  # only update if started and not stopped!
         buttons = mouse.getPressed()
-        if sum(buttons) > 0:  # ie if any button is pressed
+        if mouse.isPressedIn(NoShape):  # ie if any button is pressed
             # abort routine on response
+            print("No has been pressed")
+            continueRoutine = False
+        elif mouse.isPressedIn (YesShape):
+            # abort routine on response
+            print("Yes has been pressed")
             continueRoutine = False
     
     # check if all components have finished
@@ -244,6 +277,7 @@ thisExp.addData('mouse.leftButton', buttons[0])
 thisExp.addData('mouse.midButton', buttons[1])
 thisExp.addData('mouse.rightButton', buttons[2])
 thisExp.nextEntry()
+
 # the Routine "instructionsPART1" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
@@ -285,7 +319,6 @@ while continueRoutine:
         event.clearEvents(eventType='keyboard')
     if key_resp_3.status == STARTED:
         theseKeys = event.getKeys(keyList=['space'])
-        
         # check for quit:
         if "escape" in theseKeys:
             endExpNow = True
@@ -352,7 +385,7 @@ while continueRoutine and routineTimer.getTime() > 0:
         text.tStart = t
         text.frameNStart = frameN  # exact frame index
         text.setAutoDraw(True)
-    frameRemains = 0.0 + 30.0- win.monitorFramePeriod * 0.75  # most of one frame period left
+    frameRemains = 0.0 + 5.0- win.monitorFramePeriod * 0.75  # most of one frame period left
     if text.status == STARTED and t >= frameRemains:
         text.setAutoDraw(False)
     
@@ -443,6 +476,7 @@ while continueRoutine:
     if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
         win.flip()
 
+
 # -------Ending Routine "begin"-------
 for thisComponent in beginComponents:
     if hasattr(thisComponent, "setAutoDraw"):
@@ -460,7 +494,7 @@ routineTimer.reset()
 # set up handler to look after randomisation of conditions etc
 trials = data.TrialHandler(nReps=98, method='sequential', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions(u'reading_fluency_data.xlsx'),
+    trialList=data.importConditions('reading_fluency_data.xlsx'),
     seed=None, name='trials')
 thisExp.addLoop(trials)  # add the loop to the experiment
 thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
@@ -475,66 +509,73 @@ for thisTrial in trials:
     if thisTrial != None:
         for paramName in thisTrial.keys():
             exec(paramName + '= thisTrial.' + paramName)
+         
     
     # ------Prepare to start Routine "newwww"-------
     t = 0
     newwwwClock.reset()  # clock
     frameN = -1
     continueRoutine = True
-    # update component parameters for each repeat
-    key_resp_4 = event.BuilderKeyResponse()
+    
+    newwwwComponents = [text_3]
+    
     # keep track of which components have finished
-    newwwwComponents = [text_3, key_resp_4, End]
     for thisComponent in newwwwComponents:
         if hasattr(thisComponent, 'status'):
             thisComponent.status = NOT_STARTED
     
     # -------Start Routine "newwww"-------
-    while continueRoutine:
+    while continueRoutine and routineTimer.getTime()>0:
         # get current time
         t = newwwwClock.getTime()
         frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
         # update/draw components on each frame
-        
         # *text_3* updates
-        if t >= 0 and text_3.status == NOT_STARTED:
+        if t >= 0.0 and text_3.status == NOT_STARTED:
             # keep track of start time/frame for later
             text_3.tStart = t
             text_3.frameNStart = frameN  # exact frame index
             text_3.setAutoDraw(True)
-        frameRemains = 0 + 10- win.monitorFramePeriod * 0.75  # most of one frame period left
+        frameRemains = 0.0 + 10.0- win.monitorFramePeriod * 0.75  # most of one frame period left
         if text_3.status == STARTED and t >= frameRemains:
             text_3.setAutoDraw(False)
-        if text_3.status == STARTED:  # only update if drawing
-            text_3.setText(sentence, log=False)
-        
-        # *key_resp_4* updates
-        if t >= 0.0 and key_resp_4.status == NOT_STARTED:
-            # keep track of start time/frame for later
-            key_resp_4.tStart = t
-            key_resp_4.frameNStart = frameN  # exact frame index
-            key_resp_4.status = STARTED
-            # keyboard checking is just starting
-            win.callOnFlip(key_resp_4.clock.reset)  # t=0 on next screen flip
-            event.clearEvents(eventType='keyboard')
-        if key_resp_4.status == STARTED:
-            theseKeys = event.getKeys(keyList=['space'])
-            
-            # check for quit:
-            if "escape" in theseKeys:
-                endExpNow = True
-            if len(theseKeys) > 0:  # at least one key was pressed
-                key_resp_4.keys = theseKeys[-1]  # just the last key pressed
-                key_resp_4.rt = key_resp_4.clock.getTime()
-                # a response ends the routine
-                continueRoutine = False
-        
         # *End* updates
         if t >= 0.0 and End.status == NOT_STARTED:
             # keep track of start time/frame for later
             End.tStart = t
             End.frameNStart = frameN  # exact frame index
             End.setAutoDraw(True)
+        # *Yes* updates
+        if t >= 0 and Yes.status == NOT_STARTED:
+            # keep track of start time/frame for later
+            Yes.tStart = t
+            Yes.frameNStart = frameN  # exact frame index
+            Yes.setAutoDraw(True)
+        
+        # *No* updates
+        if t >= 0 and No.status == NOT_STARTED:
+            # keep track of start time/frame for later
+            No.tStart = t
+            No.frameNStart = frameN  # exact frame index
+            No.setAutoDraw(True)
+            
+        # *mouse* updates
+        if t >= 0 and mouse.status == NOT_STARTED:
+            # keep track of start time/frame for later
+            mouse.tStart = t 
+            mouse.frameNStart = frameN  # exact frame index
+            mouse.status = STARTED
+            event.mouseButtons = [0, 0, 0]  # reset mouse buttons to be 'up'
+        if mouse.status == STARTED:  # only update if started and not stopped!
+            buttons = mouse.getPressed()
+        if mouse.isPressedIn(NoShape):  # ie if any button is pressed
+            # abort routine on response
+            print("No has been pressed")
+            continueRoutine = False
+        elif mouse.isPressedIn (YesShape):
+            # abort routine on response
+            print("Yes has been pressed")
+            continueRoutine = False
         frameRemains = 0.0 + 10- win.monitorFramePeriod * 0.75  # most of one frame period left
         if End.status == STARTED and t >= frameRemains:
             End.setAutoDraw(False)
@@ -560,12 +601,15 @@ for thisTrial in trials:
     for thisComponent in newwwwComponents:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
+            
+    '''
     # check responses
     if key_resp_4.keys in ['', [], None]:  # No response was made
         key_resp_4.keys=None
     trials.addData('key_resp_4.keys',key_resp_4.keys)
     if key_resp_4.keys != None:  # we had a response
         trials.addData('key_resp_4.rt', key_resp_4.rt)
+    '''
     # the Routine "newwww" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     thisExp.nextEntry()
