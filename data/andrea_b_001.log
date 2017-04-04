@@ -1,0 +1,614 @@
+18.2157 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x110d37390>, name='window1', pos=[0, 0], screen=0, size=array([1440,  900]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+18.2157 	EXP 	window1: recordFrameIntervals = False
+18.3807 	EXP 	window1: recordFrameIntervals = True
+18.5642 	EXP 	window1: recordFrameIntervals = False
+18.8824 	EXP 	Created beginning = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='beginning', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+18.8887 	EXP 	Created sample_1 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='sample_1', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'A cow is an animal.', units=u'norm', win=Window(...), wrapWidth=1)
+19.0972 	EXP 	Created Yes = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='Yes.jpg', interpolate=True, mask=None, maskParams=None, name='Yes', opacity=1.0, ori=0.0, pos=array([-0.11, -0.5 ]), size=array([ 0.2,  0.2]), texRes=128, units=u'norm', win=Window(...))
+19.1052 	EXP 	Created No = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='No.jpg', interpolate=True, mask=None, maskParams=None, name='No', opacity=1.0, ori=0.0, pos=array([ 0.1, -0.5]), size=array([ 0.2,  0.2]), texRes=128, units=u'norm', win=Window(...))
+19.1327 	EXP 	Created unnamed ShapeStim = ShapeStim(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', interpolate=True, lineColor='white', lineColorSpace='named', lineWidth=1.5, name='unnamed ShapeStim', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+19.1350 	EXP 	Created unnamed ShapeStim = ShapeStim(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', interpolate=True, lineColor='white', lineColorSpace='named', lineWidth=1.5, name='unnamed ShapeStim', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+19.1739 	EXP 	Created practice_instructions = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='practice_instructions', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+19.2510 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+19.2576 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'Press the spacebar to begin.', units=u'norm', win=Window(...), wrapWidth=1)
+19.2630 	EXP 	Created text_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_3', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+19.2755 	EXP 	Created Yes1 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='Yes1.jpg', interpolate=True, mask=None, maskParams=None, name='Yes1', opacity=1.0, ori=0.0, pos=array([-0.11, -0.5 ]), size=array([ 0.2,  0.2]), texRes=128, units=u'norm', win=Window(...))
+19.2825 	EXP 	Created No1 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='No1.jpg', interpolate=True, mask=None, maskParams=None, name='No1', opacity=1.0, ori=0.0, pos=array([ 0.1, -0.5]), size=array([ 0.2,  0.2]), texRes=128, units=u'norm', win=Window(...))
+19.2849 	EXP 	Created unnamed ShapeStim = ShapeStim(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', interpolate=True, lineColor='white', lineColorSpace='named', lineWidth=1.5, name='unnamed ShapeStim', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+19.2866 	EXP 	Created unnamed ShapeStim = ShapeStim(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', interpolate=True, lineColor='white', lineColorSpace='named', lineWidth=1.5, name='unnamed ShapeStim', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+19.2931 	EXP 	Created End = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='End.jpg', interpolate=True, mask=None, maskParams=None, name='End', opacity=1.0, ori=0.0, pos=array([ 0.7, -0.6]), size=array([ 0.2,  0.2]), texRes=128, units=u'norm', win=Window(...))
+19.3039 	EXP 	Created end = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='end', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'The exam has now ended. Thank You', units=u'norm', win=Window(...), wrapWidth=1)
+19.3139 	EXP 	beginning: autoDraw = True
+24.3144 	EXP 	beginning: autoDraw = False
+24.3310 	EXP 	sample_1: autoDraw = True
+24.3310 	EXP 	Yes: autoDraw = True
+24.3310 	EXP 	No: autoDraw = True
+28.7657 	DATA 	Mouse: Left button down, pos=(823,225)
+29.0157 	DATA 	Mouse:  Left button up, pos=(824,229)
+29.4656 	DATA 	Mouse: Left button down, pos=(791,229)
+29.8147 	EXP 	beginning: autoDraw = False
+29.8147 	EXP 	sample_1: autoDraw = False
+29.8147 	EXP 	Yes: autoDraw = False
+29.8147 	EXP 	No: autoDraw = False
+29.8147 	EXP 	practice_instructions: autoDraw = True
+29.8324 	DATA 	Mouse:  Left button up, pos=(794,234)
+30.0159 	DATA 	Mouse: Left button down, pos=(794,234)
+30.1329 	DATA 	Mouse:  Left button up, pos=(794,234)
+31.7867 	DATA 	Keypress: space
+31.7986 	EXP 	practice_instructions: autoDraw = False
+31.7986 	EXP 	text: autoDraw = True
+36.7991 	EXP 	text: autoDraw = False
+36.7991 	EXP 	text: autoDraw = False
+36.7991 	EXP 	text_2: autoDraw = True
+37.5515 	DATA 	Keypress: space
+37.5836 	EXP 	Imported reading_fluency_data.xlsx as conditions, 98 conditions, 2 params
+37.5843 	EXP 	Created sequence: sequential, trialTypes=98, nReps=98, seed=None
+37.5850 	EXP 	New trial (rep=0, index=0): {u'answer': u'Y', u'sentence': u'A bird can fly.'}
+37.6158 	EXP 	text_2: autoDraw = False
+37.6158 	EXP 	text_3: text = u'A bird can fly.'
+37.6158 	EXP 	text_3: autoDraw = True
+37.6158 	EXP 	End: autoDraw = True
+37.6158 	EXP 	Yes1: autoDraw = True
+37.6158 	EXP 	No1: autoDraw = True
+38.4836 	DATA 	Mouse: Left button down, pos=(780,231)
+38.4927 	EXP 	New trial (rep=0, index=1): {u'answer': u'N', u'sentence': u'Cats have five legs.'}
+38.5032 	EXP 	New trial (rep=0, index=2): {u'answer': u'Y', u'sentence': u'Some people have long hair'}
+38.5136 	EXP 	New trial (rep=0, index=3): {u'answer': u'Y', u'sentence': u'People have teeth.'}
+38.5213 	EXP 	New trial (rep=0, index=4): {u'answer': u'N', u'sentence': u'The sky is always brown and yellow.'}
+38.5317 	EXP 	New trial (rep=0, index=5): {u'answer': u'Y', u'sentence': u'A clock tells time.'}
+38.5390 	EXP 	New trial (rep=0, index=6): {u'answer': u'N', u'sentence': u'The color of grass is red.'}
+38.5480 	EXP 	New trial (rep=0, index=7): {u'answer': u'Y', u'sentence': u'A school bus has a driver.'}
+38.5566 	EXP 	New trial (rep=0, index=8): {u'answer': u'N', u'sentence': u'People like to drink gum.'}
+38.5684 	EXP 	New trial (rep=0, index=9): {u'answer': u'N', u'sentence': u'A butterfly has ten wings.'}
+38.5772 	EXP 	New trial (rep=0, index=10): {u'answer': u'N', u'sentence': u'A train goes on the road.'}
+38.5853 	EXP 	New trial (rep=0, index=11): {u'answer': u'Y', u'sentence': u'A banana is to eat.'}
+38.5966 	EXP 	New trial (rep=0, index=12): {u'answer': u'Y', u'sentence': u'Summer is a season of the year.'}
+38.6063 	EXP 	New trial (rep=0, index=13): {u'answer': u'N', u'sentence': u'Ants are very big.'}
+38.6151 	EXP 	New trial (rep=0, index=14): {u'answer': u'N', u'sentence': u'A fire is cold.'}
+38.6226 	EXP 	New trial (rep=0, index=15): {u'answer': u'N', u'sentence': u'A bus has wings'}
+38.6291 	DATA 	Mouse:  Left button up, pos=(782,230)
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'Cats have five legs.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'Some people have long hair'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'People have teeth.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'The sky is always brown and yellow.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'A clock tells time.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'The color of grass is red.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'A school bus has a driver.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'People like to drink gum.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'A butterfly has ten wings.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'A train goes on the road.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'A banana is to eat.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'Summer is a season of the year.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'Ants are very big.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'A fire is cold.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'A bus has wings'
+38.6491 	EXP 	text_3: autoDraw = True
+43.6347 	EXP 	New trial (rep=0, index=16): {u'answer': u'N', u'sentence': u'The color of milk is pink.'}
+43.6660 	EXP 	text_3: autoDraw = False
+43.6660 	EXP 	text_3: text = u'The color of milk is pink.'
+43.6660 	EXP 	text_3: autoDraw = True
+46.4674 	DATA 	Mouse: Left button down, pos=(651,221)
+46.6005 	DATA 	Mouse:  Left button up, pos=(650,222)
+48.6355 	EXP 	New trial (rep=0, index=17): {u'answer': u'N', u'sentence': u'A flower grows in the sky.'}
+48.6665 	EXP 	text_3: autoDraw = False
+48.6665 	EXP 	text_3: text = u'A flower grows in the sky.'
+48.6665 	EXP 	text_3: autoDraw = True
+49.1346 	DATA 	Mouse: Left button down, pos=(670,229)
+49.3012 	DATA 	Mouse:  Left button up, pos=(670,229)
+52.1682 	DATA 	Mouse: Left button down, pos=(655,226)
+52.2681 	DATA 	Mouse:  Left button up, pos=(655,226)
+53.6359 	EXP 	New trial (rep=0, index=18): {u'answer': u'Y', u'sentence': u'A dog may bark at a cat.'}
+53.6670 	EXP 	text_3: autoDraw = False
+53.6670 	EXP 	text_3: text = u'A dog may bark at a cat.'
+53.6670 	EXP 	text_3: autoDraw = True
+54.1020 	DATA 	Mouse: Left button down, pos=(655,226)
+54.3021 	DATA 	Mouse:  Left button up, pos=(655,226)
+54.4353 	DATA 	Mouse: Left button down, pos=(655,226)
+54.5351 	DATA 	Mouse:  Left button up, pos=(655,226)
+54.6352 	DATA 	Mouse: Left button down, pos=(655,226)
+54.7186 	DATA 	Mouse:  Left button up, pos=(655,226)
+54.8018 	DATA 	Mouse: Left button down, pos=(655,226)
+54.9022 	DATA 	Mouse:  Left button up, pos=(655,226)
+55.0019 	DATA 	Mouse: Left button down, pos=(655,226)
+55.0708 	DATA 	Mouse:  Left button up, pos=(655,226)
+55.1852 	DATA 	Mouse: Left button down, pos=(655,226)
+55.2520 	DATA 	Mouse:  Left button up, pos=(655,226)
+55.3354 	DATA 	Mouse: Left button down, pos=(655,226)
+55.4184 	DATA 	Mouse:  Left button up, pos=(655,226)
+55.5044 	DATA 	Mouse: Left button down, pos=(655,226)
+55.5849 	DATA 	Mouse:  Left button up, pos=(655,226)
+55.6852 	DATA 	Mouse: Left button down, pos=(655,226)
+55.7522 	DATA 	Mouse:  Left button up, pos=(655,226)
+55.8685 	DATA 	Mouse: Left button down, pos=(655,226)
+55.9200 	DATA 	Mouse:  Left button up, pos=(655,226)
+56.0521 	DATA 	Mouse: Left button down, pos=(655,226)
+56.0686 	DATA 	Mouse:  Left button up, pos=(655,226)
+56.1682 	DATA 	Mouse: Left button down, pos=(655,226)
+56.2182 	DATA 	Mouse:  Left button up, pos=(655,226)
+56.3362 	DATA 	Mouse: Left button down, pos=(655,226)
+56.3853 	DATA 	Mouse:  Left button up, pos=(655,226)
+56.6020 	DATA 	Mouse: Left button down, pos=(655,226)
+56.7209 	DATA 	Mouse:  Left button up, pos=(655,226)
+57.3188 	DATA 	Mouse: Left button down, pos=(655,226)
+57.4186 	DATA 	Mouse:  Left button up, pos=(655,226)
+57.5187 	DATA 	Mouse: Left button down, pos=(655,226)
+57.5696 	DATA 	Mouse:  Left button up, pos=(655,226)
+57.6685 	DATA 	Mouse: Left button down, pos=(655,226)
+57.7535 	DATA 	Mouse:  Left button up, pos=(655,226)
+58.1683 	DATA 	Mouse: Left button down, pos=(655,226)
+58.3022 	DATA 	Mouse:  Left button up, pos=(655,226)
+58.3547 	DATA 	Mouse: Left button down, pos=(655,226)
+58.4687 	DATA 	Mouse:  Left button up, pos=(655,226)
+58.5357 	DATA 	Mouse: Left button down, pos=(655,226)
+58.6360 	EXP 	New trial (rep=0, index=19): {u'answer': u'Y', u'sentence': u'A room in a house has walls.'}
+58.6466 	DATA 	Mouse:  Left button up, pos=(655,226)
+58.6678 	EXP 	text_3: autoDraw = False
+58.6678 	EXP 	text_3: text = u'A room in a house has walls.'
+58.6678 	EXP 	text_3: autoDraw = True
+58.7360 	DATA 	Mouse: Left button down, pos=(655,226)
+59.5691 	DATA 	Mouse:  Left button up, pos=(655,226)
+59.6526 	DATA 	Mouse: Left button down, pos=(655,226)
+59.8023 	DATA 	Mouse:  Left button up, pos=(655,226)
+59.8680 	DATA 	Mouse: Left button down, pos=(655,226)
+59.9524 	DATA 	Mouse:  Left button up, pos=(655,226)
+60.0358 	DATA 	Mouse: Left button down, pos=(655,226)
+60.1191 	DATA 	Mouse:  Left button up, pos=(655,226)
+60.1856 	DATA 	Mouse: Left button down, pos=(655,226)
+60.2884 	DATA 	Mouse:  Left button up, pos=(655,226)
+60.3523 	DATA 	Mouse: Left button down, pos=(655,226)
+60.4525 	DATA 	Mouse:  Left button up, pos=(655,226)
+60.5047 	DATA 	Mouse: Left button down, pos=(655,226)
+60.8190 	DATA 	Mouse:  Left button up, pos=(655,226)
+60.9025 	DATA 	Mouse: Left button down, pos=(655,226)
+61.0024 	DATA 	Mouse:  Left button up, pos=(655,226)
+61.1026 	DATA 	Mouse: Left button down, pos=(655,226)
+61.2356 	DATA 	Mouse:  Left button up, pos=(655,226)
+62.0192 	DATA 	Mouse: Left button down, pos=(652,226)
+62.1028 	DATA 	Mouse:  Left button up, pos=(652,226)
+62.2025 	DATA 	Mouse: Left button down, pos=(652,226)
+62.3192 	DATA 	Mouse:  Left button up, pos=(652,226)
+62.3867 	DATA 	Mouse: Left button down, pos=(652,226)
+62.4861 	DATA 	Mouse:  Left button up, pos=(652,226)
+62.6029 	DATA 	Mouse: Left button down, pos=(652,226)
+62.6692 	DATA 	Mouse:  Left button up, pos=(652,226)
+62.7862 	DATA 	Mouse: Left button down, pos=(652,226)
+62.8860 	DATA 	Mouse:  Left button up, pos=(652,226)
+62.9882 	DATA 	Mouse: Left button down, pos=(652,226)
+63.0524 	DATA 	Mouse:  Left button up, pos=(652,226)
+63.1529 	DATA 	Mouse: Left button down, pos=(652,226)
+63.2361 	DATA 	Mouse:  Left button up, pos=(652,226)
+63.3718 	DATA 	Mouse: Left button down, pos=(652,226)
+63.4858 	DATA 	Mouse:  Left button up, pos=(652,226)
+63.6367 	EXP 	New trial (rep=0, index=20): {u'answer': u'Y', u'sentence': u'Golf is a game that some people like to play.'}
+63.6685 	EXP 	text_3: autoDraw = False
+63.6685 	EXP 	text_3: text = u'Golf is a game that some people like to play.'
+63.6685 	EXP 	text_3: autoDraw = True
+63.8197 	DATA 	Mouse: Left button down, pos=(652,226)
+63.9529 	DATA 	Mouse:  Left button up, pos=(652,226)
+64.0202 	DATA 	Mouse: Left button down, pos=(652,226)
+64.1195 	DATA 	Mouse:  Left button up, pos=(652,226)
+64.2053 	DATA 	Mouse: Left button down, pos=(652,226)
+64.3030 	DATA 	Mouse:  Left button up, pos=(652,226)
+64.4052 	DATA 	Mouse: Left button down, pos=(652,226)
+64.4693 	DATA 	Mouse:  Left button up, pos=(652,226)
+64.6030 	DATA 	Mouse: Left button down, pos=(652,226)
+64.6863 	DATA 	Mouse:  Left button up, pos=(652,226)
+64.8031 	DATA 	Mouse: Left button down, pos=(652,226)
+64.8861 	DATA 	Mouse:  Left button up, pos=(652,226)
+64.9863 	DATA 	Mouse: Left button down, pos=(652,226)
+65.0696 	DATA 	Mouse:  Left button up, pos=(652,226)
+65.1863 	DATA 	Mouse: Left button down, pos=(652,226)
+65.2528 	DATA 	Mouse:  Left button up, pos=(652,226)
+65.4030 	DATA 	Mouse: Left button down, pos=(652,226)
+65.5029 	DATA 	Mouse:  Left button up, pos=(652,226)
+65.6028 	DATA 	Mouse: Left button down, pos=(652,226)
+65.6863 	DATA 	Mouse:  Left button up, pos=(652,226)
+65.8193 	DATA 	Mouse: Left button down, pos=(652,226)
+65.9197 	DATA 	Mouse:  Left button up, pos=(652,226)
+66.1032 	DATA 	Mouse: Left button down, pos=(652,226)
+66.1698 	DATA 	Mouse:  Left button up, pos=(652,226)
+66.3223 	DATA 	Mouse: Left button down, pos=(652,219)
+66.4194 	DATA 	Mouse:  Left button up, pos=(652,219)
+66.5705 	DATA 	Mouse: Left button down, pos=(652,219)
+66.6697 	DATA 	Mouse:  Left button up, pos=(652,219)
+66.8029 	DATA 	Mouse: Left button down, pos=(652,219)
+66.9198 	DATA 	Mouse:  Left button up, pos=(652,219)
+67.0698 	DATA 	Mouse: Left button down, pos=(652,219)
+67.2363 	DATA 	Mouse:  Left button up, pos=(652,219)
+67.4198 	DATA 	Mouse: Left button down, pos=(652,219)
+67.5395 	DATA 	Mouse:  Left button up, pos=(652,219)
+67.7032 	DATA 	Mouse: Left button down, pos=(652,219)
+67.8698 	DATA 	Mouse:  Left button up, pos=(652,219)
+68.0032 	DATA 	Mouse: Left button down, pos=(652,219)
+68.1031 	DATA 	Mouse:  Left button up, pos=(652,219)
+68.2699 	DATA 	Mouse: Left button down, pos=(652,219)
+68.4199 	DATA 	Mouse:  Left button up, pos=(652,219)
+68.5556 	DATA 	Mouse: Left button down, pos=(652,219)
+68.6370 	EXP 	New trial (rep=0, index=21): {u'answer': u'N', u'sentence': u'June is the month after March.'}
+68.6689 	EXP 	text_3: autoDraw = False
+68.6689 	EXP 	text_3: text = u'June is the month after March.'
+68.6689 	EXP 	text_3: autoDraw = True
+68.7702 	DATA 	Mouse:  Left button up, pos=(652,219)
+68.9034 	DATA 	Mouse: Left button down, pos=(652,219)
+69.0365 	DATA 	Mouse:  Left button up, pos=(652,219)
+69.5034 	DATA 	Mouse: Left button down, pos=(652,219)
+69.6037 	DATA 	Mouse:  Left button up, pos=(652,219)
+69.9868 	DATA 	Mouse: Left button down, pos=(652,219)
+70.1047 	DATA 	Mouse:  Left button up, pos=(652,219)
+70.5534 	DATA 	Mouse: Left button down, pos=(652,217)
+70.7202 	DATA 	Mouse:  Left button up, pos=(652,217)
+71.2201 	DATA 	Mouse: Left button down, pos=(652,217)
+71.3543 	DATA 	Mouse:  Left button up, pos=(652,217)
+71.8202 	DATA 	Mouse: Left button down, pos=(652,217)
+71.9869 	DATA 	Mouse:  Left button up, pos=(652,217)
+72.5206 	DATA 	Mouse: Left button down, pos=(652,217)
+72.7038 	DATA 	Mouse:  Left button up, pos=(652,217)
+72.9559 	DATA 	Mouse: Left button down, pos=(652,217)
+73.1040 	DATA 	Mouse:  Left button up, pos=(652,217)
+73.2370 	DATA 	Mouse: Left button down, pos=(652,217)
+73.3399 	DATA 	Mouse:  Left button up, pos=(652,217)
+73.4536 	DATA 	Mouse: Left button down, pos=(652,217)
+73.5399 	DATA 	Mouse:  Left button up, pos=(652,217)
+73.6378 	EXP 	New trial (rep=0, index=22): {u'answer': u'N', u'sentence': u'Most dogs can fly over the tops of mountains.'}
+73.6522 	DATA 	Mouse: Left button down, pos=(652,217)
+73.6695 	EXP 	text_3: autoDraw = False
+73.6695 	EXP 	text_3: text = u'Most dogs can fly over the tops of mountains.'
+73.6695 	EXP 	text_3: autoDraw = True
+73.7205 	DATA 	Mouse:  Left button up, pos=(652,217)
+73.8206 	DATA 	Mouse: Left button down, pos=(652,217)
+73.8871 	DATA 	Mouse:  Left button up, pos=(652,217)
+73.9876 	DATA 	Mouse: Left button down, pos=(652,217)
+74.0536 	DATA 	Mouse:  Left button up, pos=(652,217)
+74.1540 	DATA 	Mouse: Left button down, pos=(652,217)
+74.2202 	DATA 	Mouse:  Left button up, pos=(652,217)
+74.3198 	DATA 	Mouse: Left button down, pos=(652,217)
+74.3864 	DATA 	Mouse:  Left button up, pos=(652,217)
+74.4364 	DATA 	Mouse: Left button down, pos=(652,217)
+74.5368 	DATA 	Mouse:  Left button up, pos=(652,217)
+74.6371 	DATA 	Mouse: Left button down, pos=(652,217)
+74.7367 	DATA 	Mouse:  Left button up, pos=(652,217)
+74.8219 	DATA 	Mouse: Left button down, pos=(652,217)
+74.9364 	DATA 	Mouse:  Left button up, pos=(652,217)
+75.0218 	DATA 	Mouse: Left button down, pos=(652,217)
+75.1366 	DATA 	Mouse:  Left button up, pos=(652,217)
+75.2199 	DATA 	Mouse: Left button down, pos=(652,217)
+75.2866 	DATA 	Mouse:  Left button up, pos=(652,217)
+75.4044 	DATA 	Mouse: Left button down, pos=(652,217)
+75.4375 	DATA 	Mouse:  Left button up, pos=(652,217)
+76.3881 	DATA 	Keypress: escape
+18.2157 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([ 0.,  0.,  0.]), colorSpace='rgb', fullscr=UNKNOWN, gamma=None, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x110d37390>, name='window1', pos=[0, 0], screen=0, size=array([1440,  900]), stereo=False, units=u'norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+18.2157 	EXP 	window1: recordFrameIntervals = False
+18.3807 	EXP 	window1: recordFrameIntervals = True
+18.5642 	EXP 	window1: recordFrameIntervals = False
+18.8824 	EXP 	Created beginning = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='beginning', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+18.8887 	EXP 	Created sample_1 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='sample_1', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'A cow is an animal.', units=u'norm', win=Window(...), wrapWidth=1)
+19.0972 	EXP 	Created Yes = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='Yes.jpg', interpolate=True, mask=None, maskParams=None, name='Yes', opacity=1.0, ori=0.0, pos=array([-0.11, -0.5 ]), size=array([ 0.2,  0.2]), texRes=128, units=u'norm', win=Window(...))
+19.1052 	EXP 	Created No = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='No.jpg', interpolate=True, mask=None, maskParams=None, name='No', opacity=1.0, ori=0.0, pos=array([ 0.1, -0.5]), size=array([ 0.2,  0.2]), texRes=128, units=u'norm', win=Window(...))
+19.1327 	EXP 	Created unnamed ShapeStim = ShapeStim(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', interpolate=True, lineColor='white', lineColorSpace='named', lineWidth=1.5, name='unnamed ShapeStim', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+19.1350 	EXP 	Created unnamed ShapeStim = ShapeStim(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', interpolate=True, lineColor='white', lineColorSpace='named', lineWidth=1.5, name='unnamed ShapeStim', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+19.1739 	EXP 	Created practice_instructions = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='practice_instructions', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+19.2510 	EXP 	Created text = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=unicode(...), units=u'norm', win=Window(...), wrapWidth=1)
+19.2576 	EXP 	Created text_2 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_2', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'Press the spacebar to begin.', units=u'norm', win=Window(...), wrapWidth=1)
+19.2630 	EXP 	Created text_3 = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='text_3', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'default text', units=u'norm', win=Window(...), wrapWidth=1)
+19.2755 	EXP 	Created Yes1 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='Yes1.jpg', interpolate=True, mask=None, maskParams=None, name='Yes1', opacity=1.0, ori=0.0, pos=array([-0.11, -0.5 ]), size=array([ 0.2,  0.2]), texRes=128, units=u'norm', win=Window(...))
+19.2825 	EXP 	Created No1 = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, image='No1.jpg', interpolate=True, mask=None, maskParams=None, name='No1', opacity=1.0, ori=0.0, pos=array([ 0.1, -0.5]), size=array([ 0.2,  0.2]), texRes=128, units=u'norm', win=Window(...))
+19.2849 	EXP 	Created unnamed ShapeStim = ShapeStim(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', interpolate=True, lineColor='white', lineColorSpace='named', lineWidth=1.5, name='unnamed ShapeStim', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+19.2866 	EXP 	Created unnamed ShapeStim = ShapeStim(autoDraw=False, autoLog=True, closeShape=True, contrast=1.0, depth=0, fillColor=None, fillColorSpace='rgb', interpolate=True, lineColor='white', lineColorSpace='named', lineWidth=1.5, name='unnamed ShapeStim', opacity=1.0, ori=array(0.0), pos=array([ 0.,  0.]), size=array([ 1.,  1.]), units=u'norm', vertices=ndarray(...), win=Window(...), windingRule=None)
+19.2931 	EXP 	Created End = ImageStim(autoLog=True, color=array([ 1.,  1.,  1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='End.jpg', interpolate=True, mask=None, maskParams=None, name='End', opacity=1.0, ori=0.0, pos=array([ 0.7, -0.6]), size=array([ 0.2,  0.2]), texRes=128, units=u'norm', win=Window(...))
+19.3039 	EXP 	Created end = TextStim(alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, name='end', opacity=1.0, ori=0, pos=array([ 0.,  0.]), rgb=array([ 255.,  255.,  255.]), text=u'The exam has now ended. Thank You', units=u'norm', win=Window(...), wrapWidth=1)
+19.3139 	EXP 	beginning: autoDraw = True
+24.3144 	EXP 	beginning: autoDraw = False
+24.3310 	EXP 	sample_1: autoDraw = True
+24.3310 	EXP 	Yes: autoDraw = True
+24.3310 	EXP 	No: autoDraw = True
+28.7657 	DATA 	Mouse: Left button down, pos=(823,225)
+29.0157 	DATA 	Mouse:  Left button up, pos=(824,229)
+29.4656 	DATA 	Mouse: Left button down, pos=(791,229)
+29.8147 	EXP 	beginning: autoDraw = False
+29.8147 	EXP 	sample_1: autoDraw = False
+29.8147 	EXP 	Yes: autoDraw = False
+29.8147 	EXP 	No: autoDraw = False
+29.8147 	EXP 	practice_instructions: autoDraw = True
+29.8324 	DATA 	Mouse:  Left button up, pos=(794,234)
+30.0159 	DATA 	Mouse: Left button down, pos=(794,234)
+30.1329 	DATA 	Mouse:  Left button up, pos=(794,234)
+31.7867 	DATA 	Keypress: space
+31.7986 	EXP 	practice_instructions: autoDraw = False
+31.7986 	EXP 	text: autoDraw = True
+36.7991 	EXP 	text: autoDraw = False
+36.7991 	EXP 	text: autoDraw = False
+36.7991 	EXP 	text_2: autoDraw = True
+37.5515 	DATA 	Keypress: space
+37.5836 	EXP 	Imported reading_fluency_data.xlsx as conditions, 98 conditions, 2 params
+37.5843 	EXP 	Created sequence: sequential, trialTypes=98, nReps=98, seed=None
+37.5850 	EXP 	New trial (rep=0, index=0): {u'answer': u'Y', u'sentence': u'A bird can fly.'}
+37.6158 	EXP 	text_2: autoDraw = False
+37.6158 	EXP 	text_3: text = u'A bird can fly.'
+37.6158 	EXP 	text_3: autoDraw = True
+37.6158 	EXP 	End: autoDraw = True
+37.6158 	EXP 	Yes1: autoDraw = True
+37.6158 	EXP 	No1: autoDraw = True
+38.4836 	DATA 	Mouse: Left button down, pos=(780,231)
+38.4927 	EXP 	New trial (rep=0, index=1): {u'answer': u'N', u'sentence': u'Cats have five legs.'}
+38.5032 	EXP 	New trial (rep=0, index=2): {u'answer': u'Y', u'sentence': u'Some people have long hair'}
+38.5136 	EXP 	New trial (rep=0, index=3): {u'answer': u'Y', u'sentence': u'People have teeth.'}
+38.5213 	EXP 	New trial (rep=0, index=4): {u'answer': u'N', u'sentence': u'The sky is always brown and yellow.'}
+38.5317 	EXP 	New trial (rep=0, index=5): {u'answer': u'Y', u'sentence': u'A clock tells time.'}
+38.5390 	EXP 	New trial (rep=0, index=6): {u'answer': u'N', u'sentence': u'The color of grass is red.'}
+38.5480 	EXP 	New trial (rep=0, index=7): {u'answer': u'Y', u'sentence': u'A school bus has a driver.'}
+38.5566 	EXP 	New trial (rep=0, index=8): {u'answer': u'N', u'sentence': u'People like to drink gum.'}
+38.5684 	EXP 	New trial (rep=0, index=9): {u'answer': u'N', u'sentence': u'A butterfly has ten wings.'}
+38.5772 	EXP 	New trial (rep=0, index=10): {u'answer': u'N', u'sentence': u'A train goes on the road.'}
+38.5853 	EXP 	New trial (rep=0, index=11): {u'answer': u'Y', u'sentence': u'A banana is to eat.'}
+38.5966 	EXP 	New trial (rep=0, index=12): {u'answer': u'Y', u'sentence': u'Summer is a season of the year.'}
+38.6063 	EXP 	New trial (rep=0, index=13): {u'answer': u'N', u'sentence': u'Ants are very big.'}
+38.6151 	EXP 	New trial (rep=0, index=14): {u'answer': u'N', u'sentence': u'A fire is cold.'}
+38.6226 	EXP 	New trial (rep=0, index=15): {u'answer': u'N', u'sentence': u'A bus has wings'}
+38.6291 	DATA 	Mouse:  Left button up, pos=(782,230)
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'Cats have five legs.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'Some people have long hair'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'People have teeth.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'The sky is always brown and yellow.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'A clock tells time.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'The color of grass is red.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'A school bus has a driver.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'People like to drink gum.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'A butterfly has ten wings.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'A train goes on the road.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'A banana is to eat.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'Summer is a season of the year.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'Ants are very big.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'A fire is cold.'
+38.6491 	EXP 	text_3: autoDraw = True
+38.6491 	EXP 	text_3: autoDraw = False
+38.6491 	EXP 	text_3: text = u'A bus has wings'
+38.6491 	EXP 	text_3: autoDraw = True
+43.6347 	EXP 	New trial (rep=0, index=16): {u'answer': u'N', u'sentence': u'The color of milk is pink.'}
+43.6660 	EXP 	text_3: autoDraw = False
+43.6660 	EXP 	text_3: text = u'The color of milk is pink.'
+43.6660 	EXP 	text_3: autoDraw = True
+46.4674 	DATA 	Mouse: Left button down, pos=(651,221)
+46.6005 	DATA 	Mouse:  Left button up, pos=(650,222)
+48.6355 	EXP 	New trial (rep=0, index=17): {u'answer': u'N', u'sentence': u'A flower grows in the sky.'}
+48.6665 	EXP 	text_3: autoDraw = False
+48.6665 	EXP 	text_3: text = u'A flower grows in the sky.'
+48.6665 	EXP 	text_3: autoDraw = True
+49.1346 	DATA 	Mouse: Left button down, pos=(670,229)
+49.3012 	DATA 	Mouse:  Left button up, pos=(670,229)
+52.1682 	DATA 	Mouse: Left button down, pos=(655,226)
+52.2681 	DATA 	Mouse:  Left button up, pos=(655,226)
+53.6359 	EXP 	New trial (rep=0, index=18): {u'answer': u'Y', u'sentence': u'A dog may bark at a cat.'}
+53.6670 	EXP 	text_3: autoDraw = False
+53.6670 	EXP 	text_3: text = u'A dog may bark at a cat.'
+53.6670 	EXP 	text_3: autoDraw = True
+54.1020 	DATA 	Mouse: Left button down, pos=(655,226)
+54.3021 	DATA 	Mouse:  Left button up, pos=(655,226)
+54.4353 	DATA 	Mouse: Left button down, pos=(655,226)
+54.5351 	DATA 	Mouse:  Left button up, pos=(655,226)
+54.6352 	DATA 	Mouse: Left button down, pos=(655,226)
+54.7186 	DATA 	Mouse:  Left button up, pos=(655,226)
+54.8018 	DATA 	Mouse: Left button down, pos=(655,226)
+54.9022 	DATA 	Mouse:  Left button up, pos=(655,226)
+55.0019 	DATA 	Mouse: Left button down, pos=(655,226)
+55.0708 	DATA 	Mouse:  Left button up, pos=(655,226)
+55.1852 	DATA 	Mouse: Left button down, pos=(655,226)
+55.2520 	DATA 	Mouse:  Left button up, pos=(655,226)
+55.3354 	DATA 	Mouse: Left button down, pos=(655,226)
+55.4184 	DATA 	Mouse:  Left button up, pos=(655,226)
+55.5044 	DATA 	Mouse: Left button down, pos=(655,226)
+55.5849 	DATA 	Mouse:  Left button up, pos=(655,226)
+55.6852 	DATA 	Mouse: Left button down, pos=(655,226)
+55.7522 	DATA 	Mouse:  Left button up, pos=(655,226)
+55.8685 	DATA 	Mouse: Left button down, pos=(655,226)
+55.9200 	DATA 	Mouse:  Left button up, pos=(655,226)
+56.0521 	DATA 	Mouse: Left button down, pos=(655,226)
+56.0686 	DATA 	Mouse:  Left button up, pos=(655,226)
+56.1682 	DATA 	Mouse: Left button down, pos=(655,226)
+56.2182 	DATA 	Mouse:  Left button up, pos=(655,226)
+56.3362 	DATA 	Mouse: Left button down, pos=(655,226)
+56.3853 	DATA 	Mouse:  Left button up, pos=(655,226)
+56.6020 	DATA 	Mouse: Left button down, pos=(655,226)
+56.7209 	DATA 	Mouse:  Left button up, pos=(655,226)
+57.3188 	DATA 	Mouse: Left button down, pos=(655,226)
+57.4186 	DATA 	Mouse:  Left button up, pos=(655,226)
+57.5187 	DATA 	Mouse: Left button down, pos=(655,226)
+57.5696 	DATA 	Mouse:  Left button up, pos=(655,226)
+57.6685 	DATA 	Mouse: Left button down, pos=(655,226)
+57.7535 	DATA 	Mouse:  Left button up, pos=(655,226)
+58.1683 	DATA 	Mouse: Left button down, pos=(655,226)
+58.3022 	DATA 	Mouse:  Left button up, pos=(655,226)
+58.3547 	DATA 	Mouse: Left button down, pos=(655,226)
+58.4687 	DATA 	Mouse:  Left button up, pos=(655,226)
+58.5357 	DATA 	Mouse: Left button down, pos=(655,226)
+58.6360 	EXP 	New trial (rep=0, index=19): {u'answer': u'Y', u'sentence': u'A room in a house has walls.'}
+58.6466 	DATA 	Mouse:  Left button up, pos=(655,226)
+58.6678 	EXP 	text_3: autoDraw = False
+58.6678 	EXP 	text_3: text = u'A room in a house has walls.'
+58.6678 	EXP 	text_3: autoDraw = True
+58.7360 	DATA 	Mouse: Left button down, pos=(655,226)
+59.5691 	DATA 	Mouse:  Left button up, pos=(655,226)
+59.6526 	DATA 	Mouse: Left button down, pos=(655,226)
+59.8023 	DATA 	Mouse:  Left button up, pos=(655,226)
+59.8680 	DATA 	Mouse: Left button down, pos=(655,226)
+59.9524 	DATA 	Mouse:  Left button up, pos=(655,226)
+60.0358 	DATA 	Mouse: Left button down, pos=(655,226)
+60.1191 	DATA 	Mouse:  Left button up, pos=(655,226)
+60.1856 	DATA 	Mouse: Left button down, pos=(655,226)
+60.2884 	DATA 	Mouse:  Left button up, pos=(655,226)
+60.3523 	DATA 	Mouse: Left button down, pos=(655,226)
+60.4525 	DATA 	Mouse:  Left button up, pos=(655,226)
+60.5047 	DATA 	Mouse: Left button down, pos=(655,226)
+60.8190 	DATA 	Mouse:  Left button up, pos=(655,226)
+60.9025 	DATA 	Mouse: Left button down, pos=(655,226)
+61.0024 	DATA 	Mouse:  Left button up, pos=(655,226)
+61.1026 	DATA 	Mouse: Left button down, pos=(655,226)
+61.2356 	DATA 	Mouse:  Left button up, pos=(655,226)
+62.0192 	DATA 	Mouse: Left button down, pos=(652,226)
+62.1028 	DATA 	Mouse:  Left button up, pos=(652,226)
+62.2025 	DATA 	Mouse: Left button down, pos=(652,226)
+62.3192 	DATA 	Mouse:  Left button up, pos=(652,226)
+62.3867 	DATA 	Mouse: Left button down, pos=(652,226)
+62.4861 	DATA 	Mouse:  Left button up, pos=(652,226)
+62.6029 	DATA 	Mouse: Left button down, pos=(652,226)
+62.6692 	DATA 	Mouse:  Left button up, pos=(652,226)
+62.7862 	DATA 	Mouse: Left button down, pos=(652,226)
+62.8860 	DATA 	Mouse:  Left button up, pos=(652,226)
+62.9882 	DATA 	Mouse: Left button down, pos=(652,226)
+63.0524 	DATA 	Mouse:  Left button up, pos=(652,226)
+63.1529 	DATA 	Mouse: Left button down, pos=(652,226)
+63.2361 	DATA 	Mouse:  Left button up, pos=(652,226)
+63.3718 	DATA 	Mouse: Left button down, pos=(652,226)
+63.4858 	DATA 	Mouse:  Left button up, pos=(652,226)
+63.6367 	EXP 	New trial (rep=0, index=20): {u'answer': u'Y', u'sentence': u'Golf is a game that some people like to play.'}
+63.6685 	EXP 	text_3: autoDraw = False
+63.6685 	EXP 	text_3: text = u'Golf is a game that some people like to play.'
+63.6685 	EXP 	text_3: autoDraw = True
+63.8197 	DATA 	Mouse: Left button down, pos=(652,226)
+63.9529 	DATA 	Mouse:  Left button up, pos=(652,226)
+64.0202 	DATA 	Mouse: Left button down, pos=(652,226)
+64.1195 	DATA 	Mouse:  Left button up, pos=(652,226)
+64.2053 	DATA 	Mouse: Left button down, pos=(652,226)
+64.3030 	DATA 	Mouse:  Left button up, pos=(652,226)
+64.4052 	DATA 	Mouse: Left button down, pos=(652,226)
+64.4693 	DATA 	Mouse:  Left button up, pos=(652,226)
+64.6030 	DATA 	Mouse: Left button down, pos=(652,226)
+64.6863 	DATA 	Mouse:  Left button up, pos=(652,226)
+64.8031 	DATA 	Mouse: Left button down, pos=(652,226)
+64.8861 	DATA 	Mouse:  Left button up, pos=(652,226)
+64.9863 	DATA 	Mouse: Left button down, pos=(652,226)
+65.0696 	DATA 	Mouse:  Left button up, pos=(652,226)
+65.1863 	DATA 	Mouse: Left button down, pos=(652,226)
+65.2528 	DATA 	Mouse:  Left button up, pos=(652,226)
+65.4030 	DATA 	Mouse: Left button down, pos=(652,226)
+65.5029 	DATA 	Mouse:  Left button up, pos=(652,226)
+65.6028 	DATA 	Mouse: Left button down, pos=(652,226)
+65.6863 	DATA 	Mouse:  Left button up, pos=(652,226)
+65.8193 	DATA 	Mouse: Left button down, pos=(652,226)
+65.9197 	DATA 	Mouse:  Left button up, pos=(652,226)
+66.1032 	DATA 	Mouse: Left button down, pos=(652,226)
+66.1698 	DATA 	Mouse:  Left button up, pos=(652,226)
+66.3223 	DATA 	Mouse: Left button down, pos=(652,219)
+66.4194 	DATA 	Mouse:  Left button up, pos=(652,219)
+66.5705 	DATA 	Mouse: Left button down, pos=(652,219)
+66.6697 	DATA 	Mouse:  Left button up, pos=(652,219)
+66.8029 	DATA 	Mouse: Left button down, pos=(652,219)
+66.9198 	DATA 	Mouse:  Left button up, pos=(652,219)
+67.0698 	DATA 	Mouse: Left button down, pos=(652,219)
+67.2363 	DATA 	Mouse:  Left button up, pos=(652,219)
+67.4198 	DATA 	Mouse: Left button down, pos=(652,219)
+67.5395 	DATA 	Mouse:  Left button up, pos=(652,219)
+67.7032 	DATA 	Mouse: Left button down, pos=(652,219)
+67.8698 	DATA 	Mouse:  Left button up, pos=(652,219)
+68.0032 	DATA 	Mouse: Left button down, pos=(652,219)
+68.1031 	DATA 	Mouse:  Left button up, pos=(652,219)
+68.2699 	DATA 	Mouse: Left button down, pos=(652,219)
+68.4199 	DATA 	Mouse:  Left button up, pos=(652,219)
+68.5556 	DATA 	Mouse: Left button down, pos=(652,219)
+68.6370 	EXP 	New trial (rep=0, index=21): {u'answer': u'N', u'sentence': u'June is the month after March.'}
+68.6689 	EXP 	text_3: autoDraw = False
+68.6689 	EXP 	text_3: text = u'June is the month after March.'
+68.6689 	EXP 	text_3: autoDraw = True
+68.7702 	DATA 	Mouse:  Left button up, pos=(652,219)
+68.9034 	DATA 	Mouse: Left button down, pos=(652,219)
+69.0365 	DATA 	Mouse:  Left button up, pos=(652,219)
+69.5034 	DATA 	Mouse: Left button down, pos=(652,219)
+69.6037 	DATA 	Mouse:  Left button up, pos=(652,219)
+69.9868 	DATA 	Mouse: Left button down, pos=(652,219)
+70.1047 	DATA 	Mouse:  Left button up, pos=(652,219)
+70.5534 	DATA 	Mouse: Left button down, pos=(652,217)
+70.7202 	DATA 	Mouse:  Left button up, pos=(652,217)
+71.2201 	DATA 	Mouse: Left button down, pos=(652,217)
+71.3543 	DATA 	Mouse:  Left button up, pos=(652,217)
+71.8202 	DATA 	Mouse: Left button down, pos=(652,217)
+71.9869 	DATA 	Mouse:  Left button up, pos=(652,217)
+72.5206 	DATA 	Mouse: Left button down, pos=(652,217)
+72.7038 	DATA 	Mouse:  Left button up, pos=(652,217)
+72.9559 	DATA 	Mouse: Left button down, pos=(652,217)
+73.1040 	DATA 	Mouse:  Left button up, pos=(652,217)
+73.2370 	DATA 	Mouse: Left button down, pos=(652,217)
+73.3399 	DATA 	Mouse:  Left button up, pos=(652,217)
+73.4536 	DATA 	Mouse: Left button down, pos=(652,217)
+73.5399 	DATA 	Mouse:  Left button up, pos=(652,217)
+73.6378 	EXP 	New trial (rep=0, index=22): {u'answer': u'N', u'sentence': u'Most dogs can fly over the tops of mountains.'}
+73.6522 	DATA 	Mouse: Left button down, pos=(652,217)
+73.6695 	EXP 	text_3: autoDraw = False
+73.6695 	EXP 	text_3: text = u'Most dogs can fly over the tops of mountains.'
+73.6695 	EXP 	text_3: autoDraw = True
+73.7205 	DATA 	Mouse:  Left button up, pos=(652,217)
+73.8206 	DATA 	Mouse: Left button down, pos=(652,217)
+73.8871 	DATA 	Mouse:  Left button up, pos=(652,217)
+73.9876 	DATA 	Mouse: Left button down, pos=(652,217)
+74.0536 	DATA 	Mouse:  Left button up, pos=(652,217)
+74.1540 	DATA 	Mouse: Left button down, pos=(652,217)
+74.2202 	DATA 	Mouse:  Left button up, pos=(652,217)
+74.3198 	DATA 	Mouse: Left button down, pos=(652,217)
+74.3864 	DATA 	Mouse:  Left button up, pos=(652,217)
+74.4364 	DATA 	Mouse: Left button down, pos=(652,217)
+74.5368 	DATA 	Mouse:  Left button up, pos=(652,217)
+74.6371 	DATA 	Mouse: Left button down, pos=(652,217)
+74.7367 	DATA 	Mouse:  Left button up, pos=(652,217)
+74.8219 	DATA 	Mouse: Left button down, pos=(652,217)
+74.9364 	DATA 	Mouse:  Left button up, pos=(652,217)
+75.0218 	DATA 	Mouse: Left button down, pos=(652,217)
+75.1366 	DATA 	Mouse:  Left button up, pos=(652,217)
+75.2199 	DATA 	Mouse: Left button down, pos=(652,217)
+75.2866 	DATA 	Mouse:  Left button up, pos=(652,217)
+75.4044 	DATA 	Mouse: Left button down, pos=(652,217)
+75.4375 	DATA 	Mouse:  Left button up, pos=(652,217)
+76.3881 	DATA 	Keypress: escape

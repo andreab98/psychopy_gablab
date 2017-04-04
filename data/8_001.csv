@@ -1,0 +1,6 @@
+answer,sentence,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,key_resp_2.keys,key_resp_2.rt,input,date,frameRate,expName,session,participant,
+,,,,,,space,1.48653697968,,2017_Apr_04_0126,59.8730395285,reading_fluency,001,8,
+Y,A bird can fly.,0,0,0,0,,,Y,2017_Apr_04_0126,59.8730395285,reading_fluency,001,8,
+N,Cats have five legs.,0,1,1,1,,,N,2017_Apr_04_0126,59.8730395285,reading_fluency,001,8,
+Y,Some people have long hair,0,2,2,2,,,Y,2017_Apr_04_0126,59.8730395285,reading_fluency,001,8,
+Y,People have teeth.,0,3,3,3,,,Y,2017_Apr_04_0126,59.8730395285,reading_fluency,001,8,

@@ -32,8 +32,6 @@ dlg = gui.DlgFromDict(dictionary=expInfo, title=expName)
 if dlg.OK == False:
     core.quit()  # user pressed cancel
 expInfo['date'] = data.getDateStr()  # add a simple timestamp
-expInfo['expName'] = expName
-
 
 
 
@@ -70,7 +68,7 @@ win = visual.Window(
     allowGUI=False, allowStencil=False,
     monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
     blendMode='avg', useFBO=True)
-
+ 
 # store frame rate of monitor if we can measure it
 expInfo['frameRate'] = win.getActualFrameRate()
 if expInfo['frameRate'] != None:
@@ -157,13 +155,44 @@ text_3 = visual.TextStim(win=win, name='text_3',
     pos=(0, 0), height=0.1, wrapWidth=None, ori=0, 
     color='white', colorSpace='rgb', opacity=1,
     depth=0.0);
-End = visual.ImageStim(
-    win=win, name='End',
-    image='End.jpg', mask=None,
-    ori=0, pos=(.9, -.5), size=(0.3, 0.3),
+    
+Yes1 = visual.ImageStim(
+    win=win, name='Yes1',
+    image='Yes1.jpg', mask=None,
+    ori=0, pos=(-.11, -.5), size=(0.2, 0.2),
     color=[1,1,1], colorSpace='rgb', opacity=1,
     flipHoriz=False, flipVert=False,
     texRes=128, interpolate=True, depth=-2.0)
+No1 = visual.ImageStim(
+    win=win, name='No1',
+    image='No1.jpg', mask=None,
+    ori=0, pos=(.1, -.5), size=(0.2, 0.2),
+    color=[1,1,1], colorSpace='rgb', opacity=1,
+    flipHoriz=False, flipVert=False,
+    texRes=128, interpolate=True, depth=-3.0)
+    
+No1Shape = visual.ShapeStim(
+    win, units='', lineWidth=1.5, vertices=((.1, -.5), (.1, -.3), (.3, -.5),(.3,-.3)), 
+    windingRule=None, closeShape=True, pos=(0, 0), 
+    size=1, ori=0.0, opacity=1.0, contrast=1.0, depth=0, 
+    interpolate=True, name=None, autoLog=None, autoDraw=False)
+
+Yes1Shape = visual.ShapeStim(
+    win, units='', lineWidth=1.5, vertices=((-.11, -.5), (-.11, -.3), (.09, -.5),(.09,-.3)), 
+    windingRule=None, closeShape=True, pos=(0, 0), 
+    size=1, ori=0.0, opacity=1.0, contrast=1.0, depth=0, 
+    interpolate=True, name=None, autoLog=None, autoDraw=False)
+
+End = visual.ImageStim(
+    win=win, name='End',
+    image='End.jpg', mask=None,
+    ori=0, pos=(.7, -.6), size=(0.2, 0.2),
+    color=[1,1,1], colorSpace='rgb', opacity=1,
+    flipHoriz=False, flipVert=False,
+    texRes=128, interpolate=True, depth=-2.0)
+    
+mouse1 = event.Mouse(win=win)
+x, y = [None, None]
 
 # Initialize components for Routine "end_"
 end_Clock = core.Clock()
@@ -271,12 +300,7 @@ for thisComponent in instructionsPART1Components:
 # store data for thisExp (ExperimentHandler)
 x, y = mouse.getPos()
 buttons = mouse.getPressed()
-thisExp.addData('mouse.x', x)
-thisExp.addData('mouse.y', y)
-thisExp.addData('mouse.leftButton', buttons[0])
-thisExp.addData('mouse.midButton', buttons[1])
-thisExp.addData('mouse.rightButton', buttons[2])
-thisExp.nextEntry()
+
 
 # the Routine "instructionsPART1" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
@@ -349,13 +373,7 @@ while continueRoutine:
 for thisComponent in practice_instructions_Components:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-# check responses
-if key_resp_3.keys in ['', [], None]:  # No response was made
-    key_resp_3.keys=None
-thisExp.addData('key_resp_3.keys',key_resp_3.keys)
-if key_resp_3.keys != None:  # we had a response
-    thisExp.addData('key_resp_3.rt', key_resp_3.rt)
-thisExp.nextEntry()
+
 # the Routine "practice_instructions_" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
@@ -481,20 +499,14 @@ while continueRoutine:
 for thisComponent in beginComponents:
     if hasattr(thisComponent, "setAutoDraw"):
         thisComponent.setAutoDraw(False)
-# check responses
-if key_resp_2.keys in ['', [], None]:  # No response was made
-    key_resp_2.keys=None
-thisExp.addData('key_resp_2.keys',key_resp_2.keys)
-if key_resp_2.keys != None:  # we had a response
-    thisExp.addData('key_resp_2.rt', key_resp_2.rt)
-thisExp.nextEntry()
+
 # the Routine "begin" was not non-slip safe, so reset the non-slip timer
 routineTimer.reset()
 
 # set up handler to look after randomisation of conditions etc
 trials = data.TrialHandler(nReps=98, method='sequential', 
     extraInfo=expInfo, originPath=-1,
-    trialList=data.importConditions('reading_fluency_data.xlsx'),
+    trialList=data.importConditions(u'reading_fluency_data.xlsx'),
     seed=None, name='trials')
 thisExp.addLoop(trials)  # add the loop to the experiment
 thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
@@ -516,6 +528,9 @@ for thisTrial in trials:
     newwwwClock.reset()  # clock
     frameN = -1
     continueRoutine = True
+    routineTimer.add(5.000000)
+    
+    text_3.setText(sentence)
     
     newwwwComponents = [text_3]
     
@@ -536,49 +551,50 @@ for thisTrial in trials:
             text_3.tStart = t
             text_3.frameNStart = frameN  # exact frame index
             text_3.setAutoDraw(True)
-        frameRemains = 0.0 + 10.0- win.monitorFramePeriod * 0.75  # most of one frame period left
-        if text_3.status == STARTED and t >= frameRemains:
-            text_3.setAutoDraw(False)
+         
         # *End* updates
         if t >= 0.0 and End.status == NOT_STARTED:
             # keep track of start time/frame for later
             End.tStart = t
             End.frameNStart = frameN  # exact frame index
             End.setAutoDraw(True)
-        # *Yes* updates
-        if t >= 0 and Yes.status == NOT_STARTED:
-            # keep track of start time/frame for later
-            Yes.tStart = t
-            Yes.frameNStart = frameN  # exact frame index
-            Yes.setAutoDraw(True)
         
-        # *No* updates
-        if t >= 0 and No.status == NOT_STARTED:
+        # *Yes1* updates
+        if t >= 0.0 and Yes1.status == NOT_STARTED:
             # keep track of start time/frame for later
-            No.tStart = t
-            No.frameNStart = frameN  # exact frame index
-            No.setAutoDraw(True)
-            
-        # *mouse* updates
-        if t >= 0 and mouse.status == NOT_STARTED:
+            Yes1.tStart = t
+            Yes1.frameNStart = frameN  # exact frame index
+            Yes1.setAutoDraw(True)
+        # *No1* updates
+        if t >= 0.0 and No1.status == NOT_STARTED:
             # keep track of start time/frame for later
-            mouse.tStart = t 
-            mouse.frameNStart = frameN  # exact frame index
-            mouse.status = STARTED
+            No1.tStart = t
+            No1.frameNStart = frameN  # exact frame index
+            No1.setAutoDraw(True)
+        # *mouse1* updates
+        if t >= 0 and mouse1.status == NOT_STARTED:
+            # keep track of start time/frame for later
+            mouse1.tStart = t 
+            mouse1.frameNStart = frameN  # exact frame index
+            mouse1.status = STARTED
             event.mouseButtons = [0, 0, 0]  # reset mouse buttons to be 'up'
-        if mouse.status == STARTED:  # only update if started and not stopped!
+        if mouse1.status == STARTED:  # only update if started and not stopped!
             buttons = mouse.getPressed()
-        if mouse.isPressedIn(NoShape):  # ie if any button is pressed
+        if mouse1.isPressedIn(No1Shape):  # ie if any button is pressed
+            trials.addData('input', 'No')
             # abort routine on response
             print("No has been pressed")
             continueRoutine = False
-        elif mouse.isPressedIn (YesShape):
+        elif mouse1.isPressedIn (Yes1Shape):
+            trials.addData('input', 'Yes')
             # abort routine on response
             print("Yes has been pressed")
             continueRoutine = False
-        frameRemains = 0.0 + 10- win.monitorFramePeriod * 0.75  # most of one frame period left
-        if End.status == STARTED and t >= frameRemains:
-            End.setAutoDraw(False)
+        
+        
+        frameRemains = 0.0 + 10.0- win.monitorFramePeriod * 0.75  # most of one frame period left
+        if text_3.status == STARTED and t >= frameRemains:
+            text_3.setAutoDraw(False)
         
         # check if all components have finished
         if not continueRoutine:  # a component has requested a forced-end of Routine
@@ -602,20 +618,13 @@ for thisTrial in trials:
         if hasattr(thisComponent, "setAutoDraw"):
             thisComponent.setAutoDraw(False)
             
-    '''
-    # check responses
-    if key_resp_4.keys in ['', [], None]:  # No response was made
-        key_resp_4.keys=None
-    trials.addData('key_resp_4.keys',key_resp_4.keys)
-    if key_resp_4.keys != None:  # we had a response
-        trials.addData('key_resp_4.rt', key_resp_4.rt)
-    '''
+
     # the Routine "newwww" was not non-slip safe, so reset the non-slip timer
     routineTimer.reset()
     thisExp.nextEntry()
     
 # completed 98 repeats of 'trials'
-
+ 
 
 # ------Prepare to start Routine "end_"-------
 t = 0
